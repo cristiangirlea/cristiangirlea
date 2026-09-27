@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Cristian Gîrlea — Senior Platform and Backend Engineer</title>
+  <desc id="desc">Backend systems, cloud platforms and practical AI. An abstract network of connected services in blue.</desc>
+  <defs>
+    <linearGradient id="wash"><stop stop-color="#EDF4FF"/><stop offset="1" stop-color="#DCEAFF"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1.2" fill="#A7C3E8" opacity=".5"/></pattern>
+  </defs>
+  <rect width="1200" height="320" fill="url(#wash)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+  <path d="M3 0V320" stroke="#245BCC" stroke-width="6"/>
+  <g fill="none" stroke="#A7C3E8" stroke-width="2">
+    <path d="M824 94H942Q960 94 960 112V153H1103"/>
+    <path d="M824 224H888Q908 224 908 204V173Q908 153 928 153H960"/>
+    <path d="M1002 42V74Q1002 94 982 94H960"/>
+    <path d="M960 153V245Q960 265 980 265H1134"/>
+    <path d="M1103 153V105Q1103 85 1123 85H1200"/>
+  </g>
+  <g fill="#EDF4FF" stroke="#245BCC" stroke-width="2.5">
+    <rect x="793" y="66" width="62" height="56" rx="12"/>
+    <rect x="795" y="196" width="58" height="56" rx="12"/>
+    <rect x="929" y="123" width="62" height="60" rx="14"/>
+    <rect x="1072" y="124" width="62" height="58" rx="12"/>
+  </g>
+  <g fill="none" stroke="#245BCC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M813 83L803 94L813 105M835 83L845 94L835 105M828 80L820 108"/>
+    <path d="M810 215H838M810 224H838M810 233H829"/>
+    <path d="M948 144H972M948 153H972M948 162H962"/>
+    <path d="M1088 143H1118V162H1088ZM1096 168H1110M1103 162V168"/>
+  </g>
+  <g fill="#245BCC"><circle cx="1002" cy="42" r="5"/><circle cx="1134" cy="265" r="5"/><circle cx="890" cy="94" r="4"/><circle cx="1034" cy="153" r="4"/></g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="52" y="98" fill="#152D51" font-size="53" font-weight="700" letter-spacing="-1.6">Cristian Gîrlea</text>
+    <text x="54" y="150" fill="#152D51" font-size="27">Senior Platform &amp; Backend Engineer</text>
+    <text x="54" y="196" fill="#445D7E" font-size="21">Distributed systems. Developer tools. Practical AI.</text>
+    <g fill="#EDF4FF" stroke="#A7C3E8"><rect x="54" y="225" width="155" height="29" rx="14"/><rect x="221" y="225" width="140" height="29" rx="14"/><rect x="373" y="225" width="155" height="29" rx="14"/></g>
+    <g fill="#445D7E" font-size="13" text-anchor="middle"><text x="131" y="244">backend systems</text><text x="291" y="244">practical AI</text><text x="450" y="244">developer tools</text></g>
+  </g>
+</svg>

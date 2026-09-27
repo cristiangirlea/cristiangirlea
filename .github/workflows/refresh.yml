@@ -1,0 +1,52 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: '23 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/refresh.yml'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Check contribution selection rules
+        run: python3 scripts/test-refresh.py
+
+      - name: Refresh public contribution statistics
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/refresh-profile.py
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake-light.svg?palette=github-light&color_snake=#6E56CF
+            assets/snake-dark.svg?palette=github-dark&color_snake=#A78BFA
+
+      - name: Publish refreshed assets
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/merged-prs.svg assets/projects.svg assets/upstream-stars.svg assets/merged-small.svg assets/snake-light.svg assets/snake-dark.svg data/contributions.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh contribution statistics and snake'
+            git push
+          fi

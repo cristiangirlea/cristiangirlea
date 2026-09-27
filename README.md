@@ -1,0 +1,110 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" alt="Cristian Gîrlea — Senior Platform &amp; Backend Engineer" width="1200">
+</picture>
+
+<p align="center">
+  <a href="https://github.com/cristiangirlea/tidedesk"><img alt="Featured: TideDesk" src="https://img.shields.io/badge/Featured-TideDesk-0E8A8A?style=flat-square&amp;logo=rust&amp;logoColor=white"></a>
+  <a href="https://github.com/cristiangirlea/php-python-ai-bridge"><img alt="Featured: PHP–Python AI Bridge" src="https://img.shields.io/badge/Featured-PHP%E2%80%93Python%20AI%20Bridge-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white"></a>
+  <a href="#open-source-contributions"><img alt="Verified upstream merged PRs" src="assets/merged-small.svg"></a>
+</p>
+
+<ul>
+  <li>Building <a href="https://tidedesk.app">TideDesk</a>, remote desktop software for reaching your own Windows computers, with screen sharing, input control, and system audio streaming.</li>
+  <li>Building <a href="https://github.com/cristiangirlea/php-python-ai-bridge">PHP–Python AI Bridge</a> and <a href="https://github.com/cristiangirlea/claude-sdlc-kit">claude-sdlc-kit</a>: practical AI integrations and reusable development workflows.</li>
+  <li>Working across backend services, distributed systems, cloud platforms, and developer tooling. I care about clear interfaces, useful tests, and how systems behave when something fails.</li>
+</ul>
+
+<p align="center"><a href="https://cristiangirlea.ro">Portfolio &amp; CV</a> · <a href="https://www.linkedin.com/in/cristian-girlea/">LinkedIn</a> · <a href="mailto:contact@cristiangirlea.ro">Get in touch</a></p>
+
+<h2>Built by me</h2>
+<p>Projects I build and maintain, from desktop software to AI integrations and developer tools.</p>
+
+<h3>🖥️ <a href="https://github.com/cristiangirlea/tidedesk"><code>TideDesk</code></a> · Your computers, within reach</h3>
+<blockquote><p>Remote desktop for Windows with screen sharing, keyboard and mouse control, system audio streaming, and optional text clipboard sharing.</p></blockquote>
+<p>
+  <img alt="Rust" src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&amp;logo=rust&amp;logoColor=white">
+  <img alt="QUIC transport" src="https://img.shields.io/badge/Transport-QUIC-0969DA?style=flat-square">
+  <img alt="Early alpha" src="https://img.shields.io/badge/Status-early%20alpha-BF8700?style=flat-square">
+  <img alt="Personal-use license" src="https://img.shields.io/badge/License-personal%20use-0E8A8A?style=flat-square">
+</p>
+<ul>
+  <li>H.264 video and Opus audio over encrypted QUIC connections, with separate streams for screen, input, and sound.</li>
+  <li>Windows host and viewer in one application, plus optional clipboard sharing and configurable controls.</li>
+  <li>Source-available and free for personal, non-commercial use. Currently an early alpha; other platforms are on the roadmap.</li>
+</ul>
+<p><a href="https://tidedesk.app">Website</a> · <a href="https://github.com/cristiangirlea/tidedesk/releases">Download for Windows</a> · <a href="https://github.com/cristiangirlea/tidedesk">Source</a></p>
+
+<h3>🧩 <a href="https://github.com/cristiangirlea/php-python-ai-bridge"><code>PHP–Python AI Bridge</code></a></h3>
+<blockquote><p>Call Python AI tasks from PHP without holding the original HTTP request open. Submit work, poll progress, receive typed results, and cancel when needed.</p></blockquote>
+<p>
+  <img alt="PHP 8.2–8.5" src="https://img.shields.io/badge/PHP-8.2%E2%80%938.5-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
+  <img alt="ONNX Runtime" src="https://img.shields.io/badge/ONNX-Runtime-005CED?style=flat-square">
+  <img alt="MCP tools" src="https://img.shields.io/badge/MCP-tools-6E56CF?style=flat-square">
+  <img alt="MIT license" src="https://img.shields.io/badge/License-MIT-0F766E?style=flat-square">
+</p>
+<ul>
+  <li>A framework-independent PHP client, a Python task service, and a FrankenPHP worker-mode example.</li>
+  <li>Reranking, embeddings, and redaction with optional local ONNX inference; no hosted AI account required.</li>
+  <li>Bounded concurrency, cancellation, crash detection, and deterministic fault tests across PHP 8.2–8.5.</li>
+  <li>MCP tools expose the same task protocol. Experimental prototype with in-memory jobs; not a production job queue.</li>
+</ul>
+<p><a href="https://github.com/cristiangirlea/php-python-ai-bridge#try-it-with-docker">Try with Docker</a> · <a href="https://github.com/cristiangirlea/php-python-ai-bridge/blob/main/docs/integration.md">Integration guide</a></p>
+
+<h3>🛠️ <a href="https://github.com/cristiangirlea/claude-sdlc-kit"><code>claude-sdlc-kit</code></a></h3>
+<blockquote><p>A reusable software development lifecycle for coding agents: specify, plan, implement, review, verify, ship, and learn.</p></blockquote>
+<p>
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white">
+  <img alt="Shell" src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white">
+  <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square">
+  <img alt="MIT license" src="https://img.shields.io/badge/License-MIT-0F766E?style=flat-square">
+</p>
+<ul>
+  <li>Reusable skills, roles, procedures, and templates, with a review or verification gate between stages.</li>
+  <li>A local Markdown issue tracker and runtime scripts built on the Node.js standard library.</li>
+  <li>Generated adapters for Claude Code and Codex from one source tree. Experimental community tooling.</li>
+</ul>
+<p><a href="https://github.com/cristiangirlea/claude-sdlc-kit#quick-start">Quick start</a> · <a href="https://github.com/cristiangirlea/claude-sdlc-kit/blob/main/docs/WALKTHROUGH.md">Walkthrough</a></p>
+
+<h2>Open-source contributions</h2>
+<p>Selected public projects that have merged my pull requests, refreshed automatically. My contribution to <a href="https://github.com/PostHog/posthog-go">PostHog's Go SDK</a> adds reusable client flushing, so applications can send queued events without closing the client.</p>
+
+<!-- merged-prs:start -->
+<p align="center">
+  <img src="assets/merged-prs.svg" alt="1 merged pull requests">
+  <img src="assets/projects.svg" alt="1 public upstream repositories">
+  <img src="assets/upstream-stars.svg" alt="55 combined stars on those upstream repositories">
+</p>
+<table>
+<thead><tr><th>Project</th><th>★</th><th>Merged</th></tr></thead>
+<tbody>
+<tr><td><a href="https://github.com/PostHog/posthog-go"><code>PostHog/posthog-go</code></a></td><td align="right">55</td><td align="right"><a href="https://github.com/PostHog/posthog-go/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">1</a></td></tr>
+</tbody></table>
+<p><sub>Selected public upstream contributions, merged PRs only. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-09-27 16:15 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
+<!-- merged-prs:end -->
+
+<h2>Tech</h2>
+<p align="center">
+  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&amp;logo=go&amp;logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white">
+  <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white">
+  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white">
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&amp;logoColor=white">
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white">
+</p>
+
+<h2>Contributions</h2>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg">
+    <img src="assets/snake-light.svg" alt="Animated snake moving through my GitHub contribution graph">
+  </picture>
+</p>
+<p><sub>🐍 Generated daily from my GitHub contribution graph by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
+<hr>
+<p>If a project is useful to you, a star, issue, or contribution is always welcome.<br>For backend, platform, or developer-tooling work, <a href="mailto:contact@cristiangirlea.ro">let's talk</a>.</p>
