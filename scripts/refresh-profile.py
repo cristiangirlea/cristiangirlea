@@ -22,6 +22,36 @@ def api(path):
         return json.load(response)
 
 
+def gerrit_changes(repo, number):
+    query = urlencode([('q', f'project:{repo.split("/")[1]} message:"GitHub-Pull-Request: {repo}#{number}"'),
+                       ('o', 'CURRENT_REVISION'), ('o', 'CURRENT_COMMIT')])
+    with urlopen('https://go-review.googlesource.com/changes/?' + query, timeout=30) as response:
+        return json.loads(response.read().decode().split('\n', 1)[1])
+
+
+def resolve_gerrit(items):
+    """Match the exact imported PR trailer; GitHub's merge flag misses Gerrit."""
+    for item in items:
+        repo = item['repository_url'].removeprefix('https://api.github.com/repos/')
+        if not repo.startswith('golang/'):
+            continue
+        matches = []
+        for change in gerrit_changes(repo, item['number']):
+            message = change['revisions'][change['current_revision']]['commit']['message']
+            trailer = f'GitHub-Pull-Request: {repo}#{item["number"]}'
+            if change['project'] == repo.split('/')[1] and trailer in message.splitlines():
+                matches.append(change)
+        if len(matches) > 1:
+            raise ValueError('Ambiguous Gerrit import')
+        if matches:
+            change = matches[0]
+            states = {'MERGED': 'merged', 'NEW': 'open', 'ABANDONED': 'closed'}
+            item['upstream_state'] = states[change['status']]
+            item['gerrit_url'] = f'https://go-review.googlesource.com/c/{change["project"]}/+/{change["_number"]}'
+        elif item['state'] == 'closed' and not item['pull_request'].get('merged_at'):
+            raise ValueError('Closed Go PR has no verified Gerrit status')
+
+
 def count_repositories(items, owner):
     counts = {}
     seen = set()
@@ -36,7 +66,7 @@ def count_repositories(items, owner):
             raise ValueError('Search returned an issue rather than a pull request')
         if repo.split('/')[0].lower() in {owner.lower(), *EXCLUDED_ORGS} or item['title'].startswith('[Snyk]'):
             continue
-        state = 'merged' if item['pull_request'].get('merged_at') else item['state']
+        state = item.get('upstream_state') or ('merged' if item['pull_request'].get('merged_at') else item['state'])
         if state not in {'merged', 'open', 'closed'}:
             raise ValueError('Unknown pull request state')
         counts.setdefault(repo, Counter())[state] += 1
@@ -64,13 +94,16 @@ def collect(owner):
             raise ValueError('Search pagination ended early')
     if len({item['id'] for item in items}) != expected:
         raise ValueError('Missing or duplicated search results; refusing partial totals')
+    resolve_gerrit(items)
     counts = count_repositories(items, owner)
     repos = []
     for name, count in sorted(counts.items()):
         meta = api('repos/' + name)
         if meta['private']:
             raise ValueError('Unexpected private repository')
-        repos.append({'name': name, **{state: count[state] for state in ('merged', 'open', 'closed', 'draft')}, 'stars': meta['stargazers_count']})
+        evidence = [{'pr': item['html_url'], 'number': item['number'], 'state': item['upstream_state'], 'url': item['gerrit_url']}
+                    for item in items if item.get('gerrit_url') and item['repository_url'].endswith('/' + name)]
+        repos.append({'name': name, **{state: count[state] for state in ('merged', 'open', 'closed', 'draft')}, 'stars': meta['stargazers_count'], 'gerrit': evidence})
     return sorted(repos, key=lambda r: (-r['stars'], r['name'].lower()))
 
 
@@ -105,6 +138,13 @@ def publish(repos, owner):
         cells = []
         for state, qualifier in [('merged', 'is:merged'), ('open', 'is:open'), ('closed', 'is:closed is:unmerged')]:
             search = 'https://github.com/' + repo['name'] + '/pulls?' + urlencode({'q': f'is:pr {qualifier} author:{owner}'})
+            evidence = [e for e in repo.get('gerrit', []) if e['state'] == state]
+            if evidence:
+                changes = ' OR '.join('change:' + e['url'].rsplit('/', 1)[1] for e in evidence)
+                search = 'https://go-review.googlesource.com/q/' + quote('(' + changes + ')', safe='')
+            if not repo[state]:
+                cells.append('<td align="right">0</td>')
+                continue
             cells.append(f'<td align="right"><a href="{escape(search, quote=True)}">{repo[state]}</a></td>')
         rows.append(f'<tr><td><a href="https://github.com/{name}"><code>{name}</code></a></td><td align="right">{repo["stars"]:,}</td>' + ''.join(cells) + '</tr>')
     block = '\n'.join([START, '<p align="center">',
@@ -113,6 +153,7 @@ def publish(repos, owner):
         f'  <img src="assets/projects.svg?v={len(repos)}" alt="{len(repos)} public upstream repositories">',
         '</p>', '<table>', '<thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th><th>Closed, unmerged</th></tr></thead>',
         '<tbody>', *rows, '</tbody></table>',
+        '<p id="gerrit-merge-evidence"><strong>Merged through Go Gerrit:</strong> ' + ', '.join(f'<a href="{e["url"]}">{escape(r["name"])}#{e["number"]}</a>' for r in repos for e in r.get('gerrit', []) if e['state'] == 'merged') + '. GitHub closes these imported PRs without setting its merged flag.</p>',
         f'<p><sub>Public upstream PRs authored by me. Open includes {drafts} drafts; closed, unmerged submissions are not counted as accepted changes. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed {stamp} by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>', END])
     updated = re.sub(re.escape(START) + r'.*?' + re.escape(END), lambda _: block, readme, flags=re.S)
     updated = re.sub(r'src="assets/merged-small\.svg(?:\?v=\d+)?"',

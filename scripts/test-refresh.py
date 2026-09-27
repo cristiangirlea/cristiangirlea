@@ -1,6 +1,7 @@
 import importlib.util
 from pathlib import Path
 import unittest
+from unittest.mock import patch
 
 spec = importlib.util.spec_from_file_location('refresh', Path(__file__).with_name('refresh-profile.py'))
 refresh = importlib.util.module_from_spec(spec)
@@ -14,6 +15,29 @@ def pr(identifier, repo='PostHog/posthog-go', title='Add reusable flush', merged
 
 
 class Counts(unittest.TestCase):
+    def test_gerrit_status_overrides_github_closed_flag(self):
+        for status, expected in [('MERGED', 'merged'), ('NEW', 'open'), ('ABANDONED', 'closed')]:
+            with self.subTest(status=status):
+                item = pr(1, 'golang/go', merged=False)
+                item['number'] = 81562
+                change = {'project': 'go', '_number': 833584, 'status': status,
+                          'current_revision': 'abc', 'revisions': {'abc': {'commit': {
+                              'message': 'Fix\n\nGitHub-Pull-Request: golang/go#81562\n'}}}}
+                with patch.object(refresh, 'gerrit_changes', return_value=[change]):
+                    refresh.resolve_gerrit([item])
+                self.assertEqual(refresh.count_repositories([item], 'cristiangirlea'),
+                                 {'golang/go': {expected: 1}})
+
+    def test_gerrit_requires_exact_pr_trailer(self):
+        item = pr(1, 'golang/go', merged=False)
+        item['number'] = 81562
+        change = {'project': 'go', '_number': 833584, 'status': 'MERGED',
+                  'current_revision': 'abc', 'revisions': {'abc': {'commit': {
+                      'message': 'GitHub-Pull-Request: golang/go#815620\n'}}}}
+        with patch.object(refresh, 'gerrit_changes', return_value=[change]):
+            with self.assertRaises(ValueError):
+                refresh.resolve_gerrit([item])
+
     def test_exclusions_and_deduplication(self):
         items = [pr(1), pr(1), pr(2, 'HeRAMS-WHO/herams-backend'),
                  pr(3, 'cristiangirlea/tidedesk'), pr(4, title='[Snyk] Update dependency')]

@@ -1,14 +1,100 @@
 {
-  "checked_at": "2026-09-27 16:42 UTC",
+  "checked_at": "2026-09-27 16:47 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
       "name": "golang/go",
-      "merged": 0,
+      "merged": 2,
       "open": 12,
-      "closed": 2,
+      "closed": 0,
       "draft": 0,
-      "stars": 139054
+      "stars": 139054,
+      "gerrit": [
+        {
+          "pr": "https://github.com/golang/go/pull/81545",
+          "number": 81545,
+          "state": "merged",
+          "url": "https://go-review.googlesource.com/c/go/+/833064"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81561",
+          "number": 81561,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/833564"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81562",
+          "number": 81562,
+          "state": "merged",
+          "url": "https://go-review.googlesource.com/c/go/+/833584"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81563",
+          "number": 81563,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/833565"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81569",
+          "number": 81569,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/833724"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81572",
+          "number": 81572,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/834124"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81573",
+          "number": 81573,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/834144"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81700",
+          "number": 81700,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/837365"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81701",
+          "number": 81701,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/837366"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81781",
+          "number": 81781,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/839745"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81782",
+          "number": 81782,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/839746"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81785",
+          "number": 81785,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/839785"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81786",
+          "number": 81786,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/839786"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81790",
+          "number": 81790,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/839885"
+        }
+      ]
     },
     {
       "name": "docker/docs",
@@ -16,7 +102,8 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4660
+      "stars": 4660,
+      "gerrit": []
     },
     {
       "name": "canonical/cloud-init",
@@ -24,7 +111,8 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 3823
+      "stars": 3823,
+      "gerrit": []
     },
     {
       "name": "golang/net",
@@ -32,7 +120,15 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 3045
+      "stars": 3045,
+      "gerrit": [
+        {
+          "pr": "https://github.com/golang/net/pull/269",
+          "number": 269,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/net/+/839805"
+        }
+      ]
     },
     {
       "name": "temporalio/sdk-typescript",
@@ -40,7 +136,8 @@
       "open": 1,
       "closed": 0,
       "draft": 1,
-      "stars": 925
+      "stars": 925,
+      "gerrit": []
     },
     {
       "name": "golang/text",
@@ -48,7 +145,21 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 810
+      "stars": 810,
+      "gerrit": [
+        {
+          "pr": "https://github.com/golang/text/pull/72",
+          "number": 72,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/text/+/839825"
+        },
+        {
+          "pr": "https://github.com/golang/text/pull/73",
+          "number": 73,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/text/+/839845"
+        }
+      ]
     },
     {
       "name": "mondoohq/cnspec",
@@ -56,7 +167,8 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 441
+      "stars": 441,
+      "gerrit": []
     },
     {
       "name": "canonical/chisel",
@@ -64,7 +176,8 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 427
+      "stars": 427,
+      "gerrit": []
     },
     {
       "name": "canonical/operator",
@@ -72,7 +185,8 @@
       "open": 1,
       "closed": 1,
       "draft": 0,
-      "stars": 267
+      "stars": 267,
+      "gerrit": []
     },
     {
       "name": "yiisoft/yii2-framework",
@@ -80,7 +194,8 @@
       "open": 0,
       "closed": 2,
       "draft": 0,
-      "stars": 234
+      "stars": 234,
+      "gerrit": []
     },
     {
       "name": "canonical/pebble",
@@ -88,7 +203,8 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 210
+      "stars": 210,
+      "gerrit": []
     },
     {
       "name": "weaviate/weaviate-helm",
@@ -96,7 +212,8 @@
       "open": 3,
       "closed": 0,
       "draft": 2,
-      "stars": 69
+      "stars": 69,
+      "gerrit": []
     },
     {
       "name": "PostHog/posthog-go",
@@ -104,7 +221,8 @@
       "open": 0,
       "closed": 0,
       "draft": 0,
-      "stars": 55
+      "stars": 55,
+      "gerrit": []
     },
     {
       "name": "temporalio/terraform-provider-temporalcloud",
@@ -112,7 +230,8 @@
       "open": 1,
       "closed": 0,
       "draft": 1,
-      "stars": 26
+      "stars": 26,
+      "gerrit": []
     },
     {
       "name": "canonical/traefik-k8s-operator",
@@ -120,7 +239,8 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 17
+      "stars": 17,
+      "gerrit": []
     }
   ]
 }
