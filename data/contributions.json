@@ -1,11 +1,126 @@
 {
-  "checked_at": "2026-09-27 16:16 UTC",
+  "checked_at": "2026-09-27 16:40 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
+      "name": "golang/go",
+      "merged": 0,
+      "open": 12,
+      "closed": 2,
+      "draft": 0,
+      "stars": 139054
+    },
+    {
+      "name": "docker/docs",
+      "merged": 0,
+      "open": 0,
+      "closed": 1,
+      "draft": 0,
+      "stars": 4660
+    },
+    {
+      "name": "canonical/cloud-init",
+      "merged": 0,
+      "open": 2,
+      "closed": 0,
+      "draft": 0,
+      "stars": 3823
+    },
+    {
+      "name": "golang/net",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 0,
+      "stars": 3045
+    },
+    {
+      "name": "temporalio/sdk-typescript",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 1,
+      "stars": 925
+    },
+    {
+      "name": "golang/text",
+      "merged": 0,
+      "open": 2,
+      "closed": 0,
+      "draft": 0,
+      "stars": 810
+    },
+    {
+      "name": "mondoohq/cnspec",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 0,
+      "stars": 441
+    },
+    {
+      "name": "canonical/chisel",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 0,
+      "stars": 427
+    },
+    {
+      "name": "canonical/operator",
+      "merged": 0,
+      "open": 1,
+      "closed": 1,
+      "draft": 0,
+      "stars": 267
+    },
+    {
+      "name": "yiisoft/yii2-framework",
+      "merged": 0,
+      "open": 0,
+      "closed": 2,
+      "draft": 0,
+      "stars": 234
+    },
+    {
+      "name": "canonical/pebble",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 0,
+      "stars": 210
+    },
+    {
+      "name": "weaviate/weaviate-helm",
+      "merged": 0,
+      "open": 3,
+      "closed": 0,
+      "draft": 2,
+      "stars": 69
+    },
+    {
       "name": "PostHog/posthog-go",
       "merged": 1,
+      "open": 0,
+      "closed": 0,
+      "draft": 0,
       "stars": 55
+    },
+    {
+      "name": "temporalio/terraform-provider-temporalcloud",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 1,
+      "stars": 26
+    },
+    {
+      "name": "canonical/traefik-k8s-operator",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 0,
+      "stars": 17
     }
   ]
 }
