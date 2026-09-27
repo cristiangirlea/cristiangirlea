@@ -108,13 +108,15 @@ def publish(repos, owner):
             cells.append(f'<td align="right"><a href="{escape(search, quote=True)}">{repo[state]}</a></td>')
         rows.append(f'<tr><td><a href="https://github.com/{name}"><code>{name}</code></a></td><td align="right">{repo["stars"]:,}</td>' + ''.join(cells) + '</tr>')
     block = '\n'.join([START, '<p align="center">',
-        f'  <img src="assets/submitted-prs.svg" alt="{submitted} submitted pull requests">',
-        f'  <img src="assets/merged-prs.svg" alt="{total} merged pull requests">',
-        f'  <img src="assets/projects.svg" alt="{len(repos)} public upstream repositories">',
+        f'  <img src="assets/submitted-prs.svg?v={submitted}" alt="{submitted} submitted pull requests">',
+        f'  <img src="assets/merged-prs.svg?v={total}" alt="{total} merged pull requests">',
+        f'  <img src="assets/projects.svg?v={len(repos)}" alt="{len(repos)} public upstream repositories">',
         '</p>', '<table>', '<thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th><th>Closed, unmerged</th></tr></thead>',
         '<tbody>', *rows, '</tbody></table>',
         f'<p><sub>Public upstream PRs authored by me. Open includes {drafts} drafts; closed, unmerged submissions are not counted as accepted changes. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed {stamp} by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>', END])
     updated = re.sub(re.escape(START) + r'.*?' + re.escape(END), lambda _: block, readme, flags=re.S)
+    updated = re.sub(r'src="assets/merged-small\.svg(?:\?v=\d+)?"',
+                     f'src="assets/merged-small.svg?v={submitted}"', updated)
     # Validate everything before replacing the previous published snapshot.
     (ROOT / 'assets').mkdir(exist_ok=True)
     for name, contents in badges.items():

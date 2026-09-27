@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://github.com/cristiangirlea/tidedesk"><img alt="Featured: TideDesk" src="https://img.shields.io/badge/Featured-TideDesk-0E8A8A?style=flat-square&amp;logo=rust&amp;logoColor=white"></a>
   <a href="https://github.com/cristiangirlea/php-python-ai-bridge"><img alt="Featured: PHP–Python AI Bridge" src="https://img.shields.io/badge/Featured-PHP%E2%80%93Python%20AI%20Bridge-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white"></a>
-  <a href="#open-source-contributions"><img alt="Public upstream pull requests" src="assets/merged-small.svg"></a>
+  <a href="#open-source-contributions"><img alt="Public upstream pull requests" src="assets/merged-small.svg?v=34"></a>
 </p>
 
 <ul>
@@ -82,9 +82,9 @@
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="assets/submitted-prs.svg" alt="34 submitted pull requests">
-  <img src="assets/merged-prs.svg" alt="1 merged pull requests">
-  <img src="assets/projects.svg" alt="15 public upstream repositories">
+  <img src="assets/submitted-prs.svg?v=34" alt="34 submitted pull requests">
+  <img src="assets/merged-prs.svg?v=1" alt="1 merged pull requests">
+  <img src="assets/projects.svg?v=15" alt="15 public upstream repositories">
 </p>
 <table>
 <thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th><th>Closed, unmerged</th></tr></thead>
@@ -105,7 +105,7 @@
 <tr><td><a href="https://github.com/temporalio/terraform-provider-temporalcloud"><code>temporalio/terraform-provider-temporalcloud</code></a></td><td align="right">26</td><td align="right"><a href="https://github.com/temporalio/terraform-provider-temporalcloud/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">0</a></td><td align="right"><a href="https://github.com/temporalio/terraform-provider-temporalcloud/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right"><a href="https://github.com/temporalio/terraform-provider-temporalcloud/pulls?q=is%3Apr+is%3Aclosed+is%3Aunmerged+author%3Acristiangirlea">0</a></td></tr>
 <tr><td><a href="https://github.com/canonical/traefik-k8s-operator"><code>canonical/traefik-k8s-operator</code></a></td><td align="right">17</td><td align="right"><a href="https://github.com/canonical/traefik-k8s-operator/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">0</a></td><td align="right"><a href="https://github.com/canonical/traefik-k8s-operator/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right"><a href="https://github.com/canonical/traefik-k8s-operator/pulls?q=is%3Apr+is%3Aclosed+is%3Aunmerged+author%3Acristiangirlea">0</a></td></tr>
 </tbody></table>
-<p><sub>Public upstream PRs authored by me. Open includes 4 drafts; closed, unmerged submissions are not counted as accepted changes. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-09-27 16:41 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
+<p><sub>Public upstream PRs authored by me. Open includes 4 drafts; closed, unmerged submissions are not counted as accepted changes. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-09-27 16:42 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
 <!-- merged-prs:end -->
 
 <p><strong>Issue reports:</strong> <a href="https://github.com/PrefectHQ/fastmcp/issues/5302">PrefectHQ / FastMCP</a> — reported a Windows type-checking failure caused by the unavailable <code>fcntl.flock</code> API. Issue reports are separate from the PR totals above.</p>
