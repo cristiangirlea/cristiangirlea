@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-27 16:47 UTC",
+  "checked_at": "2026-09-27 16:48 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -211,7 +211,7 @@
       "merged": 0,
       "open": 3,
       "closed": 0,
-      "draft": 2,
+      "draft": 0,
       "stars": 69,
       "gerrit": []
     },
