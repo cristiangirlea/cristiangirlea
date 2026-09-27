@@ -81,7 +81,7 @@
 <tbody>
 <tr><td><a href="https://github.com/PostHog/posthog-go"><code>PostHog/posthog-go</code></a></td><td align="right">55</td><td align="right"><a href="https://github.com/PostHog/posthog-go/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">1</a></td></tr>
 </tbody></table>
-<p><sub>Selected public upstream contributions, merged PRs only. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-09-27 16:15 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
+<p><sub>Selected public upstream contributions, merged PRs only. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-09-27 16:16 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
 <!-- merged-prs:end -->
 
 <h2>Tech</h2>
