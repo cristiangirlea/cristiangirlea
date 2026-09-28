@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-27 16:48 UTC",
+  "checked_at": "2026-09-28 09:58 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -8,7 +8,7 @@
       "open": 12,
       "closed": 0,
       "draft": 0,
-      "stars": 139054,
+      "stars": 139058,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -102,7 +102,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4660,
+      "stars": 4661,
       "gerrit": []
     },
     {
@@ -111,7 +111,7 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 3823,
+      "stars": 3825,
       "gerrit": []
     },
     {
@@ -135,8 +135,8 @@
       "merged": 0,
       "open": 1,
       "closed": 0,
-      "draft": 1,
-      "stars": 925,
+      "draft": 0,
+      "stars": 929,
       "gerrit": []
     },
     {
@@ -164,7 +164,7 @@
     {
       "name": "mondoohq/cnspec",
       "merged": 0,
-      "open": 1,
+      "open": 2,
       "closed": 0,
       "draft": 0,
       "stars": 441,
@@ -229,7 +229,7 @@
       "merged": 0,
       "open": 1,
       "closed": 0,
-      "draft": 1,
+      "draft": 0,
       "stars": 26,
       "gerrit": []
     },
