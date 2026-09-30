@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-09-29 09:58 UTC",
+  "checked_at": "2026-09-30 07:55 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
       "name": "golang/go",
-      "merged": 2,
-      "open": 12,
+      "merged": 3,
+      "open": 11,
       "closed": 0,
       "draft": 0,
-      "stars": 139075,
+      "stars": 139092,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -85,7 +85,7 @@
         {
           "pr": "https://github.com/golang/go/pull/81786",
           "number": 81786,
-          "state": "open",
+          "state": "merged",
           "url": "https://go-review.googlesource.com/c/go/+/839786"
         },
         {
@@ -102,7 +102,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4660,
+      "stars": 4662,
       "gerrit": []
     },
     {
@@ -111,7 +111,7 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 3824,
+      "stars": 3826,
       "gerrit": []
     },
     {
@@ -231,6 +231,15 @@
       "closed": 0,
       "draft": 0,
       "stars": 26,
+      "gerrit": []
+    },
+    {
+      "name": "canonical/concierge",
+      "merged": 0,
+      "open": 1,
+      "closed": 0,
+      "draft": 1,
+      "stars": 17,
       "gerrit": []
     },
     {
