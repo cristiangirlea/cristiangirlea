@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-09-30 09:50 UTC",
+  "checked_at": "2026-10-01 10:17 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
       "name": "golang/go",
       "merged": 3,
-      "open": 11,
+      "open": 12,
       "closed": 0,
       "draft": 0,
-      "stars": 139092,
+      "stars": 139109,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -93,6 +93,12 @@
           "number": 81790,
           "state": "open",
           "url": "https://go-review.googlesource.com/c/go/+/839885"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81934",
+          "number": 81934,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/842705"
         }
       ]
     },
@@ -136,7 +142,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 932,
+      "stars": 933,
       "gerrit": []
     },
     {
@@ -162,11 +168,20 @@
       ]
     },
     {
-      "name": "mondoohq/cnspec",
+      "name": "snowflakedb/snowflake-connector-python",
       "merged": 0,
-      "open": 2,
+      "open": 1,
       "closed": 0,
       "draft": 0,
+      "stars": 732,
+      "gerrit": []
+    },
+    {
+      "name": "mondoohq/cnspec",
+      "merged": 0,
+      "open": 3,
+      "closed": 0,
+      "draft": 1,
       "stars": 441,
       "gerrit": []
     },
@@ -185,7 +200,7 @@
       "open": 1,
       "closed": 2,
       "draft": 0,
-      "stars": 267,
+      "stars": 268,
       "gerrit": []
     },
     {

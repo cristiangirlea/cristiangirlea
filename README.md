@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://github.com/cristiangirlea/tidedesk"><img alt="Featured: TideDesk" src="https://img.shields.io/badge/Featured-TideDesk-0E8A8A?style=flat-square&amp;logo=rust&amp;logoColor=white"></a>
   <a href="https://github.com/cristiangirlea/php-python-ai-bridge"><img alt="Featured: PHP–Python AI Bridge" src="https://img.shields.io/badge/Featured-PHP%E2%80%93Python%20AI%20Bridge-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white"></a>
-  <a href="#open-source-contributions"><img alt="Public upstream pull requests" src="assets/merged-small.svg?v=37"></a>
+  <a href="#open-source-contributions"><img alt="Public upstream pull requests" src="assets/merged-small.svg?v=40"></a>
 </p>
 
 <ul>
@@ -82,22 +82,23 @@
 
 <!-- merged-prs:start -->
 <p align="center">
-  <img src="assets/submitted-prs.svg?v=37" alt="37 submitted pull requests">
+  <img src="assets/submitted-prs.svg?v=40" alt="40 submitted pull requests">
   <img src="assets/merged-prs.svg?v=4" alt="4 merged pull requests">
-  <img src="assets/projects.svg?v=16" alt="16 public upstream repositories">
+  <img src="assets/projects.svg?v=17" alt="17 public upstream repositories">
 </p>
 <table>
 <thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th><th>Closed, unmerged</th></tr></thead>
 <tbody>
-<tr><td><a href="https://github.com/golang/go"><code>golang/go</code></a></td><td align="right">139,092</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833064%20OR%20change%3A833584%20OR%20change%3A839786%29">3</a></td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833564%20OR%20change%3A833565%20OR%20change%3A833724%20OR%20change%3A834124%20OR%20change%3A834144%20OR%20change%3A837365%20OR%20change%3A837366%20OR%20change%3A839745%20OR%20change%3A839746%20OR%20change%3A839785%20OR%20change%3A839885%29">11</a></td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/golang/go"><code>golang/go</code></a></td><td align="right">139,109</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833064%20OR%20change%3A833584%20OR%20change%3A839786%29">3</a></td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833564%20OR%20change%3A833565%20OR%20change%3A833724%20OR%20change%3A834124%20OR%20change%3A834144%20OR%20change%3A837365%20OR%20change%3A837366%20OR%20change%3A839745%20OR%20change%3A839746%20OR%20change%3A839785%20OR%20change%3A839885%20OR%20change%3A842705%29">12</a></td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/docker/docs"><code>docker/docs</code></a></td><td align="right">4,662</td><td align="right">0</td><td align="right">0</td><td align="right"><a href="https://github.com/docker/docs/pulls?q=is%3Apr+is%3Aclosed+is%3Aunmerged+author%3Acristiangirlea">1</a></td></tr>
 <tr><td><a href="https://github.com/canonical/cloud-init"><code>canonical/cloud-init</code></a></td><td align="right">3,826</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/cloud-init/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">2</a></td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/golang/net"><code>golang/net</code></a></td><td align="right">3,044</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A839805%29">1</a></td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/temporalio/sdk-typescript"><code>temporalio/sdk-typescript</code></a></td><td align="right">932</td><td align="right">0</td><td align="right"><a href="https://github.com/temporalio/sdk-typescript/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/temporalio/sdk-typescript"><code>temporalio/sdk-typescript</code></a></td><td align="right">933</td><td align="right">0</td><td align="right"><a href="https://github.com/temporalio/sdk-typescript/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/golang/text"><code>golang/text</code></a></td><td align="right">809</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A839825%20OR%20change%3A839845%29">2</a></td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/mondoohq/cnspec"><code>mondoohq/cnspec</code></a></td><td align="right">441</td><td align="right">0</td><td align="right"><a href="https://github.com/mondoohq/cnspec/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">2</a></td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/snowflakedb/snowflake-connector-python"><code>snowflakedb/snowflake-connector-python</code></a></td><td align="right">732</td><td align="right">0</td><td align="right"><a href="https://github.com/snowflakedb/snowflake-connector-python/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/mondoohq/cnspec"><code>mondoohq/cnspec</code></a></td><td align="right">441</td><td align="right">0</td><td align="right"><a href="https://github.com/mondoohq/cnspec/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">3</a></td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/canonical/chisel"><code>canonical/chisel</code></a></td><td align="right">427</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/chisel/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/canonical/operator"><code>canonical/operator</code></a></td><td align="right">267</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/operator/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right"><a href="https://github.com/canonical/operator/pulls?q=is%3Apr+is%3Aclosed+is%3Aunmerged+author%3Acristiangirlea">2</a></td></tr>
+<tr><td><a href="https://github.com/canonical/operator"><code>canonical/operator</code></a></td><td align="right">268</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/operator/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right"><a href="https://github.com/canonical/operator/pulls?q=is%3Apr+is%3Aclosed+is%3Aunmerged+author%3Acristiangirlea">2</a></td></tr>
 <tr><td><a href="https://github.com/yiisoft/yii2-framework"><code>yiisoft/yii2-framework</code></a></td><td align="right">234</td><td align="right">0</td><td align="right">0</td><td align="right"><a href="https://github.com/yiisoft/yii2-framework/pulls?q=is%3Apr+is%3Aclosed+is%3Aunmerged+author%3Acristiangirlea">2</a></td></tr>
 <tr><td><a href="https://github.com/canonical/pebble"><code>canonical/pebble</code></a></td><td align="right">210</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/pebble/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/weaviate/weaviate-helm"><code>weaviate/weaviate-helm</code></a></td><td align="right">69</td><td align="right">0</td><td align="right"><a href="https://github.com/weaviate/weaviate-helm/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">3</a></td><td align="right">0</td></tr>
@@ -107,7 +108,7 @@
 <tr><td><a href="https://github.com/canonical/traefik-k8s-operator"><code>canonical/traefik-k8s-operator</code></a></td><td align="right">17</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/traefik-k8s-operator/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
 </tbody></table>
 <p id="gerrit-merge-evidence"><strong>Merged through Go Gerrit:</strong> <a href="https://go-review.googlesource.com/c/go/+/833064">golang/go#81545</a>, <a href="https://go-review.googlesource.com/c/go/+/833584">golang/go#81562</a>, <a href="https://go-review.googlesource.com/c/go/+/839786">golang/go#81786</a>. GitHub closes these imported PRs without setting its merged flag.</p>
-<p><sub>Public upstream PRs authored by me. Open includes 0 drafts; closed, unmerged submissions are not counted as accepted changes. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-09-30 09:50 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
+<p><sub>Public upstream PRs authored by me. Open includes 1 drafts; closed, unmerged submissions are not counted as accepted changes. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-10-01 10:17 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
 <!-- merged-prs:end -->
 
 <p><strong>Issue reports:</strong> <a href="https://github.com/PrefectHQ/fastmcp/issues/5302">PrefectHQ / FastMCP</a> — reported a Windows type-checking failure caused by the unavailable <code>fcntl.flock</code> API. Issue reports are separate from the PR totals above.</p>
