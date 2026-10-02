@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-01 10:17 UTC",
+  "checked_at": "2026-10-02 09:55 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
       "name": "golang/go",
       "merged": 3,
-      "open": 12,
+      "open": 13,
       "closed": 0,
-      "draft": 0,
-      "stars": 139109,
+      "draft": 1,
+      "stars": 139129,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -99,8 +99,32 @@
           "number": 81934,
           "state": "open",
           "url": "https://go-review.googlesource.com/c/go/+/842705"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/81940",
+          "number": 81940,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/843145"
         }
       ]
+    },
+    {
+      "name": "laravel/framework",
+      "merged": 0,
+      "open": 0,
+      "closed": 1,
+      "draft": 0,
+      "stars": 34944,
+      "gerrit": []
+    },
+    {
+      "name": "PrefectHQ/prefect",
+      "merged": 0,
+      "open": 7,
+      "closed": 0,
+      "draft": 5,
+      "stars": 23964,
+      "gerrit": []
     },
     {
       "name": "docker/docs",
@@ -112,9 +136,18 @@
       "gerrit": []
     },
     {
+      "name": "laravel/octane",
+      "merged": 0,
+      "open": 1,
+      "closed": 1,
+      "draft": 0,
+      "stars": 4043,
+      "gerrit": []
+    },
+    {
       "name": "canonical/cloud-init",
       "merged": 0,
-      "open": 2,
+      "open": 3,
       "closed": 0,
       "draft": 0,
       "stars": 3826,
@@ -123,16 +156,22 @@
     {
       "name": "golang/net",
       "merged": 0,
-      "open": 1,
+      "open": 2,
       "closed": 0,
-      "draft": 0,
-      "stars": 3044,
+      "draft": 1,
+      "stars": 3043,
       "gerrit": [
         {
           "pr": "https://github.com/golang/net/pull/269",
           "number": 269,
           "state": "open",
           "url": "https://go-review.googlesource.com/c/net/+/839805"
+        },
+        {
+          "pr": "https://github.com/golang/net/pull/270",
+          "number": 270,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/net/+/843165"
         }
       ]
     },
@@ -170,11 +209,27 @@
     {
       "name": "snowflakedb/snowflake-connector-python",
       "merged": 0,
+      "open": 2,
+      "closed": 0,
+      "draft": 1,
+      "stars": 732,
+      "gerrit": []
+    },
+    {
+      "name": "golang/image",
+      "merged": 0,
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 732,
-      "gerrit": []
+      "stars": 551,
+      "gerrit": [
+        {
+          "pr": "https://github.com/golang/image/pull/39",
+          "number": 39,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/image/+/842805"
+        }
+      ]
     },
     {
       "name": "mondoohq/cnspec",
@@ -218,7 +273,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 210,
+      "stars": 211,
       "gerrit": []
     },
     {
@@ -233,9 +288,9 @@
     {
       "name": "PostHog/posthog-go",
       "merged": 1,
-      "open": 0,
+      "open": 1,
       "closed": 0,
-      "draft": 0,
+      "draft": 1,
       "stars": 55,
       "gerrit": []
     },
