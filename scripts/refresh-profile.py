@@ -11,7 +11,8 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 START, END = '<!-- merged-prs:start -->', '<!-- merged-prs:end -->'
-EXCLUDED_ORGS = {'herams-who'}
+# Profile exclusions apply to discovery AND counting so refreshes cannot restore them.
+EXCLUDED_ORGS = {'herams-who', 'yiisoft'}
 
 
 def api(path):
@@ -75,6 +76,20 @@ def count_repositories(items, owner):
     return counts
 
 
+def verify_closed_prs(items):
+    """Use PR detail records for acceptance, rather than search indexing alone."""
+    for item in items:
+        repo = item['repository_url'].removeprefix('https://api.github.com/repos/')
+        if repo.startswith('golang/') or item['state'] != 'closed':
+            continue
+        detail = api(f'repos/{repo}/pulls/{item["number"]}')
+        if detail['user']['login'].lower() != item['user']['login'].lower():
+            raise ValueError('Pull request author mismatch')
+        item['state'] = detail['state']
+        item['draft'] = detail.get('draft', False)
+        item['pull_request']['merged_at'] = detail['merged_at']
+
+
 def collect(owner):
     query = f'author:{owner} is:pr is:public -user:{owner}' + ''.join(f' -org:{org}' for org in sorted(EXCLUDED_ORGS))
     items = []
@@ -94,6 +109,7 @@ def collect(owner):
             raise ValueError('Search pagination ended early')
     if len({item['id'] for item in items}) != expected:
         raise ValueError('Missing or duplicated search results; refusing partial totals')
+    verify_closed_prs(items)
     resolve_gerrit(items)
     counts = count_repositories(items, owner)
     repos = []
@@ -103,7 +119,10 @@ def collect(owner):
             raise ValueError('Unexpected private repository')
         evidence = [{'pr': item['html_url'], 'number': item['number'], 'state': item['upstream_state'], 'url': item['gerrit_url']}
                     for item in items if item.get('gerrit_url') and item['repository_url'].endswith('/' + name)]
-        repos.append({'name': name, **{state: count[state] for state in ('merged', 'open', 'closed', 'draft')}, 'stars': meta['stargazers_count'], 'gerrit': evidence})
+        merged_prs = [{'pr': item['html_url'], 'evidence': item.get('gerrit_url', item['html_url'])}
+                      for item in items if item['repository_url'].endswith('/' + name)
+                      and (item.get('upstream_state') == 'merged' or item['pull_request'].get('merged_at'))]
+        repos.append({'name': name, **{state: count[state] for state in ('merged', 'open', 'closed', 'draft')}, 'stars': meta['stargazers_count'], 'gerrit': evidence, 'merged_prs': merged_prs})
     return sorted(repos, key=lambda r: (-r['stars'], r['name'].lower()))
 
 

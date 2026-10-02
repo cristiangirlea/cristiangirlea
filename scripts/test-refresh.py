@@ -40,8 +40,18 @@ class Counts(unittest.TestCase):
 
     def test_exclusions_and_deduplication(self):
         items = [pr(1), pr(1), pr(2, 'HeRAMS-WHO/herams-backend'),
-                 pr(3, 'cristiangirlea/tidedesk'), pr(4, title='[Snyk] Update dependency')]
+                 pr(3, 'cristiangirlea/tidedesk'), pr(4, title='[Snyk] Update dependency'),
+                 pr(5, 'yiisoft/yii2-framework'), pr(6, 'Yiisoft/yii2', merged=False, state='open')]
         self.assertEqual(refresh.count_repositories(items, 'cristiangirlea'), {'PostHog/posthog-go': {'merged': 1}})
+
+    def test_pr_detail_corrects_stale_search_merge_status(self):
+        item = pr(1, merged=False)
+        item['number'] = 324
+        detail = {'user': item['user'], 'state': 'closed', 'merged_at': '2026-09-22T13:32:56Z'}
+        with patch.object(refresh, 'api', return_value=detail):
+            refresh.verify_closed_prs([item])
+        self.assertEqual(refresh.count_repositories([item], 'cristiangirlea'),
+                         {'PostHog/posthog-go': {'merged': 1}})
 
     def test_statuses_stay_separate_and_drafts_are_open(self):
         items = [pr(1), pr(2, merged=False), pr(3, merged=False, state='open'),
