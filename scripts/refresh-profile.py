@@ -117,6 +117,8 @@ def collect(owner):
         meta = api('repos/' + name)
         if meta['private']:
             raise ValueError('Unexpected private repository')
+        if meta['fork']:
+            continue
         evidence = [{'pr': item['html_url'], 'number': item['number'], 'state': item['upstream_state'], 'url': item['gerrit_url']}
                     for item in items if item.get('gerrit_url') and item['repository_url'].endswith('/' + name)]
         merged_prs = [{'pr': item['html_url'], 'evidence': item.get('gerrit_url', item['html_url'])}
@@ -143,19 +145,22 @@ def publish(repos, owner):
         raise ValueError('README must have exactly one contribution block')
     total = sum(r['merged'] for r in repos)
     submitted = sum(r['merged'] + r['open'] + r['closed'] for r in repos)
+    opened = sum(r['open'] for r in repos)
+    featured = [r for r in repos if r['merged'] or r['open']]
     drafts = sum(r['draft'] for r in repos)
-    stars = sum(r['stars'] for r in repos)
+    stars = sum(r['stars'] for r in featured)
     badges = {'merged-prs.svg': badge('Merged PRs', total, '8250DF', True),
               'submitted-prs.svg': badge('Submitted PRs', submitted, '0969DA', True),
-              'projects.svg': badge('Repositories', len(repos), '0969DA', True),
+              'open-prs.svg': badge('Open PRs', opened, '0969DA', True),
+              'projects.svg': badge('Repositories', len(featured), '0969DA', True),
               'upstream-stars.svg': badge('Upstream stars', stars, '9D7209', True),
-              'merged-small.svg': badge('Upstream PRs', submitted, '8250DF')}
+              'merged-small.svg': badge('Merged PRs', total, '8250DF')}
     stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
     rows = []
-    for repo in repos:
+    for repo in featured:
         name = escape(repo['name'])
         cells = []
-        for state, qualifier in [('merged', 'is:merged'), ('open', 'is:open'), ('closed', 'is:closed is:unmerged')]:
+        for state, qualifier in [('merged', 'is:merged'), ('open', 'is:open')]:
             search = 'https://github.com/' + repo['name'] + '/pulls?' + urlencode({'q': f'is:pr {qualifier} author:{owner}'})
             evidence = [e for e in repo.get('gerrit', []) if e['state'] == state]
             if evidence:
@@ -167,16 +172,16 @@ def publish(repos, owner):
             cells.append(f'<td align="right"><a href="{escape(search, quote=True)}">{repo[state]}</a></td>')
         rows.append(f'<tr><td><a href="https://github.com/{name}"><code>{name}</code></a></td><td align="right">{repo["stars"]:,}</td>' + ''.join(cells) + '</tr>')
     block = '\n'.join([START, '<p align="center">',
-        f'  <img src="assets/submitted-prs.svg?v={submitted}" alt="{submitted} submitted pull requests">',
         f'  <img src="assets/merged-prs.svg?v={total}" alt="{total} merged pull requests">',
-        f'  <img src="assets/projects.svg?v={len(repos)}" alt="{len(repos)} public upstream repositories">',
-        '</p>', '<table>', '<thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th><th>Closed, unmerged</th></tr></thead>',
+        f'  <img src="assets/open-prs.svg?v={opened}" alt="{opened} open pull requests">',
+        f'  <img src="assets/projects.svg?v={len(featured)}" alt="{len(featured)} public upstream repositories with merged or open PRs">',
+        '</p>', '<table>', '<thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th></tr></thead>',
         '<tbody>', *rows, '</tbody></table>',
         '<p id="gerrit-merge-evidence"><strong>Merged through Go Gerrit:</strong> ' + ', '.join(f'<a href="{e["url"]}">{escape(r["name"])}#{e["number"]}</a>' for r in repos for e in r.get('gerrit', []) if e['state'] == 'merged') + '. GitHub closes these imported PRs without setting its merged flag.</p>',
-        f'<p><sub>Public upstream PRs authored by me. Open includes {drafts} drafts; closed, unmerged submissions are not counted as accepted changes. Stars belong to the upstream repositories. <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed {stamp} by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>', END])
+        f'<p><sub>Public upstream PRs authored by me. Open includes {drafts} drafts and is awaiting upstream acceptance. Stars belong to the upstream repositories. <a href="data/contributions.json">Full contribution audit</a> · <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed {stamp} by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>', END])
     updated = re.sub(re.escape(START) + r'.*?' + re.escape(END), lambda _: block, readme, flags=re.S)
     updated = re.sub(r'src="assets/merged-small\.svg(?:\?v=\d+)?"',
-                     f'src="assets/merged-small.svg?v={submitted}"', updated)
+                     f'src="assets/merged-small.svg?v={total}"', updated)
     # Validate everything before replacing the previous published snapshot.
     (ROOT / 'assets').mkdir(exist_ok=True)
     for name, contents in badges.items():
@@ -184,7 +189,7 @@ def publish(repos, owner):
     (ROOT / 'data').mkdir(exist_ok=True)
     (ROOT / 'data' / 'contributions.json').write_text(json.dumps({'checked_at': stamp, 'owner': owner, 'repositories': repos}, indent=2) + '\n', encoding='utf-8')
     readme_path.write_text(updated, encoding='utf-8')
-    print(f'Refreshed {submitted} submitted PRs ({total} merged) across {len(repos)} public repositories.')
+    print(f'Refreshed {total} merged and {opened} open PRs across {len(featured)} featured repositories; {submitted} submissions retained in the audit.')
 
 
 if __name__ == '__main__':

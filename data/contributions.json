@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-05 10:39 UTC",
+  "checked_at": "2026-10-06 07:46 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
       "name": "golang/go",
-      "merged": 3,
-      "open": 13,
+      "merged": 4,
+      "open": 12,
       "closed": 0,
       "draft": 1,
-      "stars": 139255,
+      "stars": 139287,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -73,7 +73,7 @@
         {
           "pr": "https://github.com/golang/go/pull/81782",
           "number": 81782,
-          "state": "open",
+          "state": "merged",
           "url": "https://go-review.googlesource.com/c/go/+/839746"
         },
         {
@@ -117,6 +117,10 @@
           "evidence": "https://go-review.googlesource.com/c/go/+/833584"
         },
         {
+          "pr": "https://github.com/golang/go/pull/81782",
+          "evidence": "https://go-review.googlesource.com/c/go/+/839746"
+        },
+        {
           "pr": "https://github.com/golang/go/pull/81786",
           "evidence": "https://go-review.googlesource.com/c/go/+/839786"
         }
@@ -128,7 +132,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34951,
+      "stars": 34948,
       "gerrit": [],
       "merged_prs": []
     },
@@ -138,7 +142,7 @@
       "open": 7,
       "closed": 0,
       "draft": 5,
-      "stars": 23965,
+      "stars": 23973,
       "gerrit": [],
       "merged_prs": []
     },
@@ -148,7 +152,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11127,
+      "stars": 11132,
       "gerrit": [],
       "merged_prs": []
     },
@@ -168,7 +172,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4045,
+      "stars": 4046,
       "gerrit": [],
       "merged_prs": [
         {
@@ -272,13 +276,18 @@
     },
     {
       "name": "mondoohq/cnspec",
-      "merged": 0,
-      "open": 3,
+      "merged": 1,
+      "open": 2,
       "closed": 0,
       "draft": 1,
       "stars": 441,
       "gerrit": [],
-      "merged_prs": []
+      "merged_prs": [
+        {
+          "pr": "https://github.com/mondoohq/cnspec/pull/4132",
+          "evidence": "https://github.com/mondoohq/cnspec/pull/4132"
+        }
+      ]
     },
     {
       "name": "canonical/chisel",
@@ -286,7 +295,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 426,
+      "stars": 427,
       "gerrit": [],
       "merged_prs": []
     },
@@ -327,8 +336,8 @@
     },
     {
       "name": "PostHog/posthog-go",
-      "merged": 1,
-      "open": 1,
+      "merged": 2,
+      "open": 0,
       "closed": 0,
       "draft": 0,
       "stars": 55,
@@ -337,6 +346,10 @@
         {
           "pr": "https://github.com/PostHog/posthog-go/pull/324",
           "evidence": "https://github.com/PostHog/posthog-go/pull/324"
+        },
+        {
+          "pr": "https://github.com/PostHog/posthog-go/pull/343",
+          "evidence": "https://github.com/PostHog/posthog-go/pull/343"
         }
       ]
     },

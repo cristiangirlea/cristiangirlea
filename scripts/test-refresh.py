@@ -1,5 +1,7 @@
 import importlib.util
+import json
 from pathlib import Path
+from tempfile import TemporaryDirectory
 import unittest
 from unittest.mock import patch
 
@@ -67,6 +69,43 @@ class Counts(unittest.TestCase):
                 refresh.collect('cristiangirlea')
         finally:
             refresh.api = old
+
+    def test_fork_targets_are_excluded_from_the_audit(self):
+        item = pr(1, 'other-user/fork', merged=False, state='open')
+        with patch.object(refresh, 'api', side_effect=[
+                {'total_count': 1, 'items': [item]},
+                {'private': False, 'fork': True}]):
+            self.assertEqual(refresh.collect('cristiangirlea'), [])
+
+    def test_profile_highlights_merged_and_open_but_preserves_closed_audit(self):
+        repos = [
+            {'name': 'laravel/octane', 'merged': 1, 'open': 0, 'closed': 1,
+             'draft': 0, 'stars': 4000},
+            {'name': 'example/active', 'merged': 0, 'open': 2, 'closed': 0,
+             'draft': 1, 'stars': 100},
+            {'name': 'example/closed-only', 'merged': 0, 'open': 0, 'closed': 3,
+             'draft': 0, 'stars': 200}]
+        with TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / 'README.md').write_text(
+                '<img src="assets/merged-small.svg?v=7">\n' +
+                refresh.START + '\nold\n' + refresh.END, encoding='utf-8')
+            with patch.object(refresh, 'ROOT', root):
+                refresh.publish(repos, 'cristiangirlea')
+            readme = (root / 'README.md').read_text(encoding='utf-8')
+            self.assertNotIn('Closed, unmerged', readme)
+            self.assertNotIn('example/closed-only', readme)
+            self.assertNotIn('submitted-prs.svg', readme)
+            self.assertIn('laravel/octane', readme)
+            self.assertIn('1 merged pull requests', readme)
+            self.assertIn('2 open pull requests', readme)
+            self.assertIn('2 public upstream repositories', readme)
+            self.assertIn('assets/merged-small.svg?v=1', readme)
+            self.assertIn('Open includes 1 drafts', readme)
+            audit = json.loads((root / 'data/contributions.json').read_text(encoding='utf-8'))
+            self.assertEqual(audit['repositories'], repos)
+            self.assertIn('MERGED PRs: 1'.upper(),
+                          (root / 'assets/merged-prs.svg').read_text(encoding='utf-8'))
 
 
 if __name__ == '__main__':
