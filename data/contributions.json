@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-06 10:32 UTC",
+  "checked_at": "2026-10-07 10:24 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -7,8 +7,8 @@
       "merged": 4,
       "open": 12,
       "closed": 0,
-      "draft": 1,
-      "stars": 139294,
+      "draft": 0,
+      "stars": 139310,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -132,7 +132,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34948,
+      "stars": 34952,
       "gerrit": [],
       "merged_prs": []
     },
@@ -142,7 +142,7 @@
       "open": 7,
       "closed": 0,
       "draft": 5,
-      "stars": 23976,
+      "stars": 23982,
       "gerrit": [],
       "merged_prs": []
     },
@@ -152,7 +152,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11132,
+      "stars": 11131,
       "gerrit": [],
       "merged_prs": []
     },
@@ -162,7 +162,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4665,
+      "stars": 4666,
       "gerrit": [],
       "merged_prs": []
     },
@@ -187,7 +187,7 @@
       "open": 3,
       "closed": 0,
       "draft": 0,
-      "stars": 3827,
+      "stars": 3828,
       "gerrit": [],
       "merged_prs": []
     },
@@ -197,7 +197,7 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 3043,
+      "stars": 3044,
       "gerrit": [
         {
           "pr": "https://github.com/golang/net/pull/269",
@@ -220,7 +220,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 933,
+      "stars": 934,
       "gerrit": [],
       "merged_prs": []
     },
@@ -280,7 +280,7 @@
       "open": 2,
       "closed": 0,
       "draft": 1,
-      "stars": 441,
+      "stars": 440,
       "gerrit": [],
       "merged_prs": [
         {
@@ -295,7 +295,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 427,
+      "stars": 428,
       "gerrit": [],
       "merged_prs": []
     },
@@ -320,7 +320,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 211,
+      "stars": 212,
       "gerrit": [],
       "merged_prs": []
     },
