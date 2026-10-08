@@ -1,5 +1,5 @@
 {
-  "basis": "Latest technical architect CV is authoritative. Detailed engineering CVs provide historical stack breadth; the public portfolio provides personal-project technologies.",
+  "basis": "Latest technical architect CV is authoritative. Detailed engineering CVs provide historical stack breadth; the public portfolio provides personal-project technologies. Django, JetBrains IDEs, Bash and Ubuntu were additionally confirmed by Cristian.",
   "primary_cv": {
     "filename": "Cristian-Girlea-CV (5).pdf",
     "title": "Technical Architect | Hands-on Full Stack Development and Technical Leadership",
@@ -9,7 +9,7 @@
   "portfolio": "https://cristiangirlea.ro",
   "categories": [
     {
-      "name": "Languages and runtimes",
+      "name": "Languages, runtimes and systems",
       "technologies": [
         "Go",
         "Python",
@@ -26,12 +26,18 @@
         "HTML",
         "CSS",
         "PowerShell",
-        "V8"
+        "V8",
+        "Bash",
+        "Linux",
+        "Ubuntu",
+        "Windows",
+        "Android"
       ]
     },
     {
-      "name": "Backend frameworks and APIs",
+      "name": "Frameworks and APIs",
       "technologies": [
+        "Django",
         "FastAPI",
         "Flask",
         "Fiber",
@@ -53,12 +59,7 @@
         "OpenAPI / Swagger",
         "JSON-RPC",
         "webhooks",
-        "async jobs"
-      ]
-    },
-    {
-      "name": "Frontend and UI",
-      "technologies": [
+        "async jobs",
         "React",
         "Next.js",
         "Vue.js",
@@ -67,11 +68,13 @@
         "jQuery",
         "Bootstrap",
         "Tailwind CSS",
-        "Module Federation"
+        "Module Federation",
+        "Unity 6",
+        "URP / IL2CPP"
       ]
     },
     {
-      "name": "Databases, search and messaging",
+      "name": "Data and messaging",
       "technologies": [
         "PostgreSQL",
         "MySQL",
@@ -91,14 +94,13 @@
       ]
     },
     {
-      "name": "Cloud and hosting",
+      "name": "Cloud, infrastructure and delivery",
       "technologies": [
         "AWS",
         "Azure",
         "Google Cloud",
         "DigitalOcean",
         "Cloudflare / Cloudflare Pages",
-        "Linux",
         "AWS EKS",
         "EC2",
         "Lambda",
@@ -115,12 +117,7 @@
         "QuickSight",
         "Azure AKS",
         "Azure Functions",
-        "Azure Key Vault"
-      ]
-    },
-    {
-      "name": "Containers, infrastructure and GitOps",
-      "technologies": [
+        "Azure Key Vault",
         "Docker / Docker Compose",
         "Kubernetes",
         "Terraform",
@@ -131,12 +128,7 @@
         "KEDA",
         "Skaffold",
         "Minikube",
-        "K9s"
-      ]
-    },
-    {
-      "name": "Delivery and testing",
-      "technologies": [
+        "K9s",
         "Git",
         "GitHub Actions",
         "GitLab CI",
@@ -152,22 +144,21 @@
         "Go test",
         "canary testing",
         "end-to-end testing",
-        "fault-injection testing"
-      ]
-    },
-    {
-      "name": "Observability and reliability",
-      "technologies": [
+        "fault-injection testing",
         "Prometheus",
         "Grafana",
         "OpenTelemetry",
         "Sentry",
-        "CloudWatch"
+        "CloudWatch",
+        "QUIC",
+        "H.264 / Opus",
+        "STUN / NAT traversal"
       ]
     },
     {
       "name": "AI, inference and agent tooling",
       "technologies": [
+        "JetBrains IDEs",
         "MLflow",
         "ONNX Runtime",
         "Ollama",
@@ -192,7 +183,7 @@
       ]
     },
     {
-      "name": "Microsoft, identity and security",
+      "name": "Microsoft, security and product integrations",
       "technologies": [
         "Power Apps",
         "Canvas Apps",
@@ -214,19 +205,7 @@
         "PKI",
         "AD CS",
         "SCEP",
-        "Group Policy"
-      ]
-    },
-    {
-      "name": "Desktop, games and product integrations",
-      "technologies": [
-        "Unity 6",
-        "URP / IL2CPP",
-        "Android",
-        "Windows",
-        "QUIC",
-        "H.264 / Opus",
-        "STUN / NAT traversal",
+        "Group Policy",
         "Google Play Billing",
         "Stripe Connect",
         "Paddle",
@@ -236,5 +215,11 @@
         "XML / UBL"
       ]
     }
+  ],
+  "confirmed_additions": [
+    "Django",
+    "JetBrains IDEs",
+    "Bash",
+    "Ubuntu"
   ]
 }

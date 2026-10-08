@@ -94,11 +94,10 @@
   <a href="https://github.com/PostHog/posthog-go/pulls?q=is%3Apr+author%3Acristiangirlea"><img alt="PostHog contributions" src="https://img.shields.io/badge/PostHog-F54E00?style=flat-square"></a>
 </p>
 
-<p><strong>Issue reports:</strong> <a href="https://github.com/PrefectHQ/fastmcp/issues/5302">PrefectHQ / FastMCP</a> — reported a Windows type-checking failure caused by the unavailable <code>fcntl.flock</code> API. Issue reports are separate from the PR totals above.</p>
+<p><strong>Issue reports:</strong> <a href="https://github.com/PrefectHQ/fastmcp/issues/5302">PrefectHQ / FastMCP</a> — reported a Windows type-checking failure caused by the unavailable <code>fcntl.flock</code> API.</p>
 
 <h2>Languages, frameworks and tools</h2>
 <p>Across professional work and personal projects.</p>
-<h3>Languages and runtimes</h3>
 <p>
   <img src="assets/icons/go.svg" alt="Go" title="Go" width="42" height="42">
   <img src="assets/icons/python.svg" alt="Python" title="Python" width="42" height="42">
@@ -114,10 +113,12 @@
   <img src="assets/icons/html5.svg" alt="HTML" title="HTML" width="42" height="42">
   <img src="assets/icons/css3.svg" alt="CSS" title="CSS" width="42" height="42">
   <img src="assets/icons/powershell.svg" alt="PowerShell" title="PowerShell" width="42" height="42">
-</p>
-<p>Go · Python · TypeScript · JavaScript · PHP · SQL · Rust · C# · Java · Kotlin · Perl · Node.js · HTML · CSS · PowerShell · V8</p>
-<h3>Backend frameworks and APIs</h3>
-<p>
+  <img src="assets/icons/bash.svg" alt="Bash" title="Bash" width="42" height="42">
+  <img src="assets/icons/linux.svg" alt="Linux" title="Linux" width="42" height="42">
+  <img src="assets/icons/ubuntu.svg" alt="Ubuntu" title="Ubuntu" width="42" height="42">
+  <img src="assets/icons/windows11.svg" alt="Windows" title="Windows" width="42" height="42">
+  <img src="assets/icons/android.svg" alt="Android" title="Android" width="42" height="42">
+  <img src="assets/icons/django.svg" alt="Django" title="Django" width="42" height="42">
   <img src="assets/icons/fastapi.svg" alt="FastAPI" title="FastAPI" width="42" height="42">
   <img src="assets/icons/flask.svg" alt="Flask" title="Flask" width="42" height="42">
   <img src="assets/icons/fiber.svg" alt="Fiber" title="Fiber" width="42" height="42">
@@ -128,10 +129,6 @@
   <img src="assets/icons/codeigniter.svg" alt="CodeIgniter" title="CodeIgniter" width="42" height="42">
   <img src="assets/icons/cakephp.svg" alt="CakePHP" title="CakePHP" width="42" height="42">
   <img src="assets/icons/yii.svg" alt="Yii2" title="Yii2" width="42" height="42">
-</p>
-<p>FastAPI · Flask · Fiber · Express.js · NestJS · Laravel · Symfony · CodeIgniter · CakePHP · Yii2 · Pydantic · FrankenPHP · API Platform · REST · SOAP · gRPC / grpc-go · Protobuf · ConnectRPC · OpenAPI / Swagger · JSON-RPC · webhooks · async jobs</p>
-<h3>Frontend and UI</h3>
-<p>
   <img src="assets/icons/react.svg" alt="React" title="React" width="42" height="42">
   <img src="assets/icons/nextjs.svg" alt="Next.js" title="Next.js" width="42" height="42">
   <img src="assets/icons/vuejs.svg" alt="Vue.js" title="Vue.js" width="42" height="42">
@@ -140,10 +137,7 @@
   <img src="assets/icons/jquery.svg" alt="jQuery" title="jQuery" width="42" height="42">
   <img src="assets/icons/bootstrap.svg" alt="Bootstrap" title="Bootstrap" width="42" height="42">
   <img src="assets/icons/tailwindcss.svg" alt="Tailwind CSS" title="Tailwind CSS" width="42" height="42">
-</p>
-<p>React · Next.js · Vue.js · Angular · AngularJS · jQuery · Bootstrap · Tailwind CSS · Module Federation</p>
-<h3>Databases, search and messaging</h3>
-<p>
+  <img src="assets/icons/unity.svg" alt="Unity 6" title="Unity 6" width="42" height="42">
   <img src="assets/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="42" height="42">
   <img src="assets/icons/mysql.svg" alt="MySQL" title="MySQL" width="42" height="42">
   <img src="assets/icons/mariadb.svg" alt="MariaDB" title="MariaDB" width="42" height="42">
@@ -156,28 +150,18 @@
   <img src="assets/icons/prisma.svg" alt="Prisma" title="Prisma" width="42" height="42">
   <img src="assets/icons/apachekafka.svg" alt="Kafka" title="Kafka" width="42" height="42">
   <img src="assets/icons/rabbitmq.svg" alt="RabbitMQ" title="RabbitMQ" width="42" height="42">
-</p>
-<p>PostgreSQL · MySQL · MariaDB · SQL Server · MongoDB · Redis · Elasticsearch · DynamoDB · Supabase · Prisma · Kafka · RabbitMQ · Beanstalkd · Hatchet · SQS queues</p>
-<h3>Cloud and hosting</h3>
-<p>
   <img src="assets/icons/aws.svg" alt="AWS" title="AWS" width="42" height="42">
   <img src="assets/icons/azure.svg" alt="Azure" title="Azure" width="42" height="42">
   <img src="assets/icons/googlecloud.svg" alt="Google Cloud" title="Google Cloud" width="42" height="42">
   <img src="assets/icons/digitalocean.svg" alt="DigitalOcean" title="DigitalOcean" width="42" height="42">
   <img src="assets/icons/cloudflare.svg" alt="Cloudflare / Cloudflare Pages" title="Cloudflare / Cloudflare Pages" width="42" height="42">
-  <img src="assets/icons/linux.svg" alt="Linux" title="Linux" width="42" height="42">
-</p>
-<p>AWS · Azure · Google Cloud · DigitalOcean · Cloudflare / Cloudflare Pages · Linux · AWS EKS · EC2 · Lambda · SAM · CodeBuild · S3 · RDS · EventBridge · SNS · SQS · ECR · IAM · Secrets Manager · QuickSight · Azure AKS · Azure Functions · Azure Key Vault</p>
-<h3>Containers, infrastructure and GitOps</h3>
-<p>
   <img src="assets/icons/docker.svg" alt="Docker / Docker Compose" title="Docker / Docker Compose" width="42" height="42">
   <img src="assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="42" height="42">
   <img src="assets/icons/terraform.svg" alt="Terraform" title="Terraform" width="42" height="42">
+  <img src="assets/icons/opentofu.svg" alt="OpenTofu" title="OpenTofu" width="42" height="42">
   <img src="assets/icons/argocd.svg" alt="Argo CD" title="Argo CD" width="42" height="42">
-</p>
-<p>Docker / Docker Compose · Kubernetes · Terraform · OpenTofu · Kustomize · Flux · Argo CD · KEDA · Skaffold · Minikube · K9s</p>
-<h3>Delivery and testing</h3>
-<p>
+  <img src="assets/icons/flux.svg" alt="Flux" title="Flux" width="42" height="42">
+  <img src="assets/icons/skaffold.svg" alt="Skaffold" title="Skaffold" width="42" height="42">
   <img src="assets/icons/git.svg" alt="Git" title="Git" width="42" height="42">
   <img src="assets/icons/githubactions.svg" alt="GitHub Actions" title="GitHub Actions" width="42" height="42">
   <img src="assets/icons/gitlab.svg" alt="GitLab CI" title="GitLab CI" width="42" height="42">
@@ -188,30 +172,25 @@
   <img src="assets/icons/puppeteer.svg" alt="Puppeteer" title="Puppeteer" width="42" height="42">
   <img src="assets/icons/pytest.svg" alt="pytest" title="pytest" width="42" height="42">
   <img src="assets/icons/jest.svg" alt="Jest" title="Jest" width="42" height="42">
-</p>
-<p>Git · GitHub Actions · GitLab CI · Azure DevOps Pipelines · Jenkins · Bitbucket CI/CD · Nx · Playwright · Puppeteer · pytest · Jest · PHPUnit · Go test · canary testing · end-to-end testing · fault-injection testing</p>
-<h3>Observability and reliability</h3>
-<p>
   <img src="assets/icons/prometheus.svg" alt="Prometheus" title="Prometheus" width="42" height="42">
   <img src="assets/icons/grafana.svg" alt="Grafana" title="Grafana" width="42" height="42">
   <img src="assets/icons/opentelemetry.svg" alt="OpenTelemetry" title="OpenTelemetry" width="42" height="42">
   <img src="assets/icons/sentry.svg" alt="Sentry" title="Sentry" width="42" height="42">
-</p>
-<p>Prometheus · Grafana · OpenTelemetry · Sentry · CloudWatch</p>
-<h3>AI, inference and agent tooling</h3>
-<p>
+  <img src="assets/icons/jetbrains.svg" alt="JetBrains IDEs" title="JetBrains IDEs" width="42" height="42">
   <img src="assets/icons/vscode.svg" alt="VS Code" title="VS Code" width="42" height="42">
 </p>
-<p>MLflow · ONNX Runtime · Ollama · LiteLLM · OpenAI APIs · Anthropic API · Foundry-hosted models · RAG · embeddings and semantic search · cross-encoder reranking · LLM evaluation / LLM-as-judge · synthetic datasets · structured outputs and guardrails · MCP clients and servers · Claude Code · Codex · Cursor · Gemini CLI · opencode · VS Code · agent skills, roles and hooks</p>
-<h3>Microsoft, identity and security</h3>
-<p>Power Apps · Canvas Apps · Model-Driven Apps · Power Automate · Dataverse / CDS · PCF controls · Dataverse plug-ins · Microsoft 365 / Office 365 · SharePoint · Azure AD · Active Directory · OAuth 2.0 / OIDC · SSO · JWT · RBAC / ABAC · multi-tenancy · SOPS · PKI · AD CS · SCEP · Group Policy</p>
-<h3>Desktop, games and product integrations</h3>
-<p>
-  <img src="assets/icons/unity.svg" alt="Unity 6" title="Unity 6" width="42" height="42">
-  <img src="assets/icons/android.svg" alt="Android" title="Android" width="42" height="42">
-  <img src="assets/icons/windows11.svg" alt="Windows" title="Windows" width="42" height="42">
-</p>
-<p>Unity 6 · URP / IL2CPP · Android · Windows · QUIC · H.264 / Opus · STUN / NAT traversal · Google Play Billing · Stripe Connect · Paddle · GA4 · Google Tag Manager · OneTrust · XML / UBL</p>
+<p><strong>Containers, infrastructure &amp; GitOps:</strong> Docker · Docker Compose · Kubernetes · Terraform · OpenTofu · Kustomize · Flux · Argo CD · KEDA · Skaffold · Minikube · K9s</p>
+<details>
+<summary>Full stack: languages, frameworks, platforms and tools</summary>
+
+<p><strong>Languages, runtimes and systems:</strong> Go · Python · TypeScript · JavaScript · PHP · SQL · Rust · C# · Java · Kotlin · Perl · Node.js · HTML · CSS · PowerShell · V8 · Bash · Linux · Ubuntu · Windows · Android</p>
+<p><strong>Frameworks and APIs:</strong> Django · FastAPI · Flask · Fiber · Express.js · NestJS · Laravel · Symfony · CodeIgniter · CakePHP · Yii2 · Pydantic · FrankenPHP · API Platform · REST · SOAP · gRPC / grpc-go · Protobuf · ConnectRPC · OpenAPI / Swagger · JSON-RPC · webhooks · async jobs · React · Next.js · Vue.js · Angular · AngularJS · jQuery · Bootstrap · Tailwind CSS · Module Federation · Unity 6 · URP / IL2CPP</p>
+<p><strong>Data and messaging:</strong> PostgreSQL · MySQL · MariaDB · SQL Server · MongoDB · Redis · Elasticsearch · DynamoDB · Supabase · Prisma · Kafka · RabbitMQ · Beanstalkd · Hatchet · SQS queues</p>
+<p><strong>Cloud, infrastructure and delivery:</strong> AWS · Azure · Google Cloud · DigitalOcean · Cloudflare / Cloudflare Pages · AWS EKS · EC2 · Lambda · SAM · CodeBuild · S3 · RDS · EventBridge · SNS · SQS · ECR · IAM · Secrets Manager · QuickSight · Azure AKS · Azure Functions · Azure Key Vault · Docker / Docker Compose · Kubernetes · Terraform · OpenTofu · Kustomize · Flux · Argo CD · KEDA · Skaffold · Minikube · K9s · Git · GitHub Actions · GitLab CI · Azure DevOps Pipelines · Jenkins · Bitbucket CI/CD · Nx · Playwright · Puppeteer · pytest · Jest · PHPUnit · Go test · canary testing · end-to-end testing · fault-injection testing · Prometheus · Grafana · OpenTelemetry · Sentry · CloudWatch · QUIC · H.264 / Opus · STUN / NAT traversal</p>
+<p><strong>AI, inference and agent tooling:</strong> JetBrains IDEs · MLflow · ONNX Runtime · Ollama · LiteLLM · OpenAI APIs · Anthropic API · Foundry-hosted models · RAG · embeddings and semantic search · cross-encoder reranking · LLM evaluation / LLM-as-judge · synthetic datasets · structured outputs and guardrails · MCP clients and servers · Claude Code · Codex · Cursor · Gemini CLI · opencode · VS Code · agent skills, roles and hooks</p>
+<p><strong>Microsoft, security and product integrations:</strong> Power Apps · Canvas Apps · Model-Driven Apps · Power Automate · Dataverse / CDS · PCF controls · Dataverse plug-ins · Microsoft 365 / Office 365 · SharePoint · Azure AD · Active Directory · OAuth 2.0 / OIDC · SSO · JWT · RBAC / ABAC · multi-tenancy · SOPS · PKI · AD CS · SCEP · Group Policy · Google Play Billing · Stripe Connect · Paddle · GA4 · Google Tag Manager · OneTrust · XML / UBL</p>
+
+</details>
 
 <h2>GitHub activity</h2>
 <p align="center">

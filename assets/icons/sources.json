@@ -75,7 +75,31 @@
     "vscode": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/vscode/vscode-original.svg",
     "unity": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/unity/unity-original.svg",
     "android": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/android/android-original.svg",
-    "windows11": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/windows11/windows11-original.svg"
+    "windows11": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/windows11/windows11-original.svg",
+    "django": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/django/django-plain.svg",
+    "jetbrains": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/jetbrains/jetbrains-original.svg",
+    "bash": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/bash/bash-original.svg",
+    "ubuntu": "https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/ubuntu/ubuntu-original.svg",
+    "opentofu": "https://raw.githubusercontent.com/simple-icons/simple-icons/98820a4dc8c363ca72fa2c0d294ea4a0a9bba75d/icons/opentofu.svg",
+    "flux": "https://raw.githubusercontent.com/simple-icons/simple-icons/98820a4dc8c363ca72fa2c0d294ea4a0a9bba75d/icons/flux.svg",
+    "skaffold": "https://raw.githubusercontent.com/simple-icons/simple-icons/98820a4dc8c363ca72fa2c0d294ea4a0a9bba75d/icons/skaffold.svg"
   },
-  "changes": "Original vectors resized inside a pale rounded tile."
+  "changes": "Original vectors resized inside a pale rounded tile.",
+  "additional_sources": [
+    {
+      "project": "https://github.com/simple-icons/simple-icons",
+      "revision": "98820a4dc8c363ca72fa2c0d294ea4a0a9bba75d",
+      "license": "CC0-1.0",
+      "license_file": "simple-icons-LICENSE.md",
+      "icons": [
+        "opentofu",
+        "flux",
+        "skaffold"
+      ],
+      "brand_guidelines": {
+        "flux": "https://www.cncf.io/brand-guidelines/"
+      },
+      "note": "Brand logos identify tools used; no affiliation or endorsement is implied."
+    }
+  ]
 }
