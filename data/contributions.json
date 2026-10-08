@@ -1,14 +1,14 @@
 {
-  "checked_at": "2026-10-07 10:24 UTC",
+  "checked_at": "2026-10-08 10:45 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
       "name": "golang/go",
       "merged": 4,
-      "open": 12,
+      "open": 13,
       "closed": 0,
-      "draft": 0,
-      "stars": 139310,
+      "draft": 1,
+      "stars": 139319,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -105,6 +105,12 @@
           "number": 81940,
           "state": "open",
           "url": "https://go-review.googlesource.com/c/go/+/843145"
+        },
+        {
+          "pr": "https://github.com/golang/go/pull/82055",
+          "number": 82055,
+          "state": "open",
+          "url": "https://go-review.googlesource.com/c/go/+/846305"
         }
       ],
       "merged_prs": [
@@ -132,7 +138,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34952,
+      "stars": 34956,
       "gerrit": [],
       "merged_prs": []
     },
@@ -142,7 +148,7 @@
       "open": 7,
       "closed": 0,
       "draft": 5,
-      "stars": 23982,
+      "stars": 23991,
       "gerrit": [],
       "merged_prs": []
     },
@@ -152,7 +158,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11131,
+      "stars": 11135,
       "gerrit": [],
       "merged_prs": []
     },
@@ -162,7 +168,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4666,
+      "stars": 4667,
       "gerrit": [],
       "merged_prs": []
     },
@@ -197,7 +203,7 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 3044,
+      "stars": 3045,
       "gerrit": [
         {
           "pr": "https://github.com/golang/net/pull/269",
@@ -220,7 +226,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 934,
+      "stars": 935,
       "gerrit": [],
       "merged_prs": []
     },
@@ -276,13 +282,17 @@
     },
     {
       "name": "mondoohq/cnspec",
-      "merged": 1,
-      "open": 2,
+      "merged": 2,
+      "open": 1,
       "closed": 0,
       "draft": 1,
-      "stars": 440,
+      "stars": 439,
       "gerrit": [],
       "merged_prs": [
+        {
+          "pr": "https://github.com/mondoohq/cnspec/pull/4131",
+          "evidence": "https://github.com/mondoohq/cnspec/pull/4131"
+        },
         {
           "pr": "https://github.com/mondoohq/cnspec/pull/4132",
           "evidence": "https://github.com/mondoohq/cnspec/pull/4132"
@@ -295,7 +305,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 428,
+      "stars": 429,
       "gerrit": [],
       "merged_prs": []
     },
