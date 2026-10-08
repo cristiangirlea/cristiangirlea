@@ -9,7 +9,7 @@
 </p>
 
 <ul>
-  <li>Building <a href="https://tidedesk.app">TideDesk</a>, remote desktop software for reaching your own Windows computers, with screen sharing, input control, and system audio streaming.</li>
+  <li>Building <a href="https://tidedesk.app">TideDesk</a>, remote desktop software for reaching your own Windows computers, with screen sharing, input control, system audio, file transfer and chat.</li>
   <li>Building <a href="https://github.com/cristiangirlea/php-python-ai-bridge">PHP–Python AI Bridge</a> and <a href="https://github.com/cristiangirlea/claude-sdlc-kit">claude-sdlc-kit</a>: practical AI integrations and reusable development workflows.</li>
   <li>Working across backend services, distributed systems, cloud platforms, and developer tooling. I care about clear interfaces, useful tests, and how systems behave when something fails.</li>
 </ul>
@@ -35,19 +35,19 @@
 <p><a href="https://adanext.si/">Website</a> · <a href="https://play.adanext.si/">Play Fix the Bot</a></p>
 
 <h3>🖥️ <a href="https://github.com/cristiangirlea/tidedesk"><code>TideDesk</code></a> · Your computers, within reach</h3>
-<blockquote><p>Remote desktop for Windows with screen sharing, keyboard and mouse control, system audio streaming, and optional text clipboard sharing.</p></blockquote>
+<blockquote><p>Remote desktop for Windows with screen sharing, keyboard and mouse control, system audio, file transfer and chat, plus an experimental Android viewer.</p></blockquote>
 <p>
   <img alt="Rust" src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&amp;logo=rust&amp;logoColor=white">
   <img alt="QUIC transport" src="https://img.shields.io/badge/Transport-QUIC-0969DA?style=flat-square">
-  <img alt="Early alpha" src="https://img.shields.io/badge/Status-early%20alpha-BF8700?style=flat-square">
+  <img alt="Windows and experimental Android viewer" src="https://img.shields.io/badge/Platforms-Windows%20%2B%20Android%20preview-0969DA?style=flat-square">
   <img alt="Personal-use license" src="https://img.shields.io/badge/License-personal%20use-0E8A8A?style=flat-square">
 </p>
 <ul>
   <li>H.264 video and Opus audio over encrypted QUIC connections, with separate streams for screen, input, and sound.</li>
-  <li>Windows host and viewer in one application, plus optional clipboard sharing and configurable controls.</li>
-  <li>Source-available and free for personal, non-commercial use. Currently an early alpha; other platforms are on the roadmap.</li>
+  <li>Windows host and viewer in one application, available through the Microsoft Store and portable releases. An experimental Android viewer is also available.</li>
+  <li>Free for personal, non-commercial use, with paid licensing for business use. I own the application, connection services, release delivery, website and commercial sales setup.</li>
 </ul>
-<p><a href="https://tidedesk.app">Website</a> · <a href="https://github.com/cristiangirlea/tidedesk/releases">Download for Windows</a> · <a href="https://github.com/cristiangirlea/tidedesk">Source</a></p>
+<p><a href="https://tidedesk.app">Website</a> · <a href="https://apps.microsoft.com/detail/9PLH1HWXHB3Q">Microsoft Store</a> · <a href="https://github.com/cristiangirlea/tidedesk/releases">Portable releases &amp; Android preview</a></p>
 
 <h3>🧩 <a href="https://github.com/cristiangirlea/php-python-ai-bridge"><code>PHP–Python AI Bridge</code></a></h3>
 <blockquote><p>Call Python AI tasks from PHP without holding the original HTTP request open. Submit work, poll progress, receive typed results, and cancel when needed.</p></blockquote>

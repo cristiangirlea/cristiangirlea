@@ -1,5 +1,11 @@
 {
-  "basis": "Published technical architect CV, detailed engineering CV, earlier detailed CV for historical frameworks, and public portfolio",
+  "basis": "Latest technical architect CV is authoritative. Detailed engineering CVs provide historical stack breadth; the public portfolio provides personal-project technologies.",
+  "primary_cv": {
+    "filename": "Cristian-Girlea-CV (5).pdf",
+    "title": "Technical Architect | Hands-on Full Stack Development and Technical Leadership",
+    "url": "https://cristiangirlea.ro/Cristian-Girlea-CV.pdf",
+    "sha256": "558ee856eb7e8788b20680aa6216d8879da8d4a716e34dda82f2232ae51e1b59"
+  },
   "portfolio": "https://cristiangirlea.ro",
   "categories": [
     {
