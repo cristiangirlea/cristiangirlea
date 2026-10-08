@@ -15,7 +15,13 @@
   <li>Working across backend services, distributed systems, cloud platforms, and developer tooling. I care about clear interfaces, useful tests, and how systems behave when something fails.</li>
 </ul>
 
-<p align="center"><a href="https://cristiangirlea.ro">Portfolio &amp; CV</a> · <a href="https://www.linkedin.com/in/cristian-girlea/">LinkedIn</a> · <a href="mailto:contact@cristiangirlea.ro">Get in touch</a></p>
+<h2>Connect with me</h2>
+<p>
+  <a href="https://cristiangirlea.ro"><img src="assets/icons/portfolio.svg" alt="Portfolio and CV" title="Portfolio and CV" width="48" height="48"></a>
+  <a href="https://www.linkedin.com/in/cristian-girlea/"><img src="assets/icons/linkedin.svg" alt="LinkedIn" title="LinkedIn" width="48" height="48"></a>
+  <a href="mailto:contact@cristiangirlea.ro"><img src="assets/icons/email.svg" alt="Email me" title="Email me" width="48" height="48"></a>
+</p>
+<p><a href="https://cristiangirlea.ro">Portfolio &amp; CV</a> · <a href="https://www.linkedin.com/in/cristian-girlea/">LinkedIn</a> · <a href="mailto:contact@cristiangirlea.ro">Get in touch</a></p>
 
 <h2>Built by me</h2>
 <p>Projects I build and maintain, from desktop software to AI integrations and developer tools.</p>
@@ -89,12 +95,12 @@
 <table>
 <thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th></tr></thead>
 <tbody>
-<tr><td><a href="https://github.com/golang/go"><code>golang/go</code></a></td><td align="right">139,319</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833064%20OR%20change%3A833584%20OR%20change%3A839746%20OR%20change%3A839786%29">4</a></td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833564%20OR%20change%3A833565%20OR%20change%3A833724%20OR%20change%3A834124%20OR%20change%3A834144%20OR%20change%3A837365%20OR%20change%3A837366%20OR%20change%3A839745%20OR%20change%3A839785%20OR%20change%3A839885%20OR%20change%3A842705%20OR%20change%3A843145%20OR%20change%3A846305%29">13</a></td></tr>
+<tr><td><a href="https://github.com/golang/go"><code>golang/go</code></a></td><td align="right">139,138</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833064%20OR%20change%3A833584%20OR%20change%3A839746%20OR%20change%3A839786%29">4</a></td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833564%20OR%20change%3A833565%20OR%20change%3A833724%20OR%20change%3A834124%20OR%20change%3A834144%20OR%20change%3A837365%20OR%20change%3A837366%20OR%20change%3A839745%20OR%20change%3A839785%20OR%20change%3A839885%20OR%20change%3A842705%20OR%20change%3A843145%20OR%20change%3A846305%29">13</a></td></tr>
 <tr><td><a href="https://github.com/PrefectHQ/prefect"><code>PrefectHQ/prefect</code></a></td><td align="right">23,991</td><td align="right">0</td><td align="right"><a href="https://github.com/PrefectHQ/prefect/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">7</a></td></tr>
-<tr><td><a href="https://github.com/microsoft/winget-pkgs"><code>microsoft/winget-pkgs</code></a></td><td align="right">11,135</td><td align="right">0</td><td align="right"><a href="https://github.com/microsoft/winget-pkgs/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
+<tr><td><a href="https://github.com/microsoft/winget-pkgs"><code>microsoft/winget-pkgs</code></a></td><td align="right">11,140</td><td align="right">0</td><td align="right"><a href="https://github.com/microsoft/winget-pkgs/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
 <tr><td><a href="https://github.com/laravel/octane"><code>laravel/octane</code></a></td><td align="right">4,046</td><td align="right"><a href="https://github.com/laravel/octane/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/canonical/cloud-init"><code>canonical/cloud-init</code></a></td><td align="right">3,828</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/cloud-init/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">3</a></td></tr>
-<tr><td><a href="https://github.com/golang/net"><code>golang/net</code></a></td><td align="right">3,045</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A839805%20OR%20change%3A843165%29">2</a></td></tr>
+<tr><td><a href="https://github.com/golang/net"><code>golang/net</code></a></td><td align="right">3,044</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A839805%20OR%20change%3A843165%29">2</a></td></tr>
 <tr><td><a href="https://github.com/temporalio/sdk-typescript"><code>temporalio/sdk-typescript</code></a></td><td align="right">935</td><td align="right">0</td><td align="right"><a href="https://github.com/temporalio/sdk-typescript/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
 <tr><td><a href="https://github.com/golang/text"><code>golang/text</code></a></td><td align="right">809</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A839825%20OR%20change%3A839845%29">2</a></td></tr>
 <tr><td><a href="https://github.com/snowflakedb/snowflake-connector-python"><code>snowflakedb/snowflake-connector-python</code></a></td><td align="right">732</td><td align="right">0</td><td align="right"><a href="https://github.com/snowflakedb/snowflake-connector-python/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">2</a></td></tr>
@@ -110,24 +116,47 @@
 <tr><td><a href="https://github.com/canonical/traefik-k8s-operator"><code>canonical/traefik-k8s-operator</code></a></td><td align="right">17</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/traefik-k8s-operator/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
 </tbody></table>
 <p id="gerrit-merge-evidence"><strong>Merged through Go Gerrit:</strong> <a href="https://go-review.googlesource.com/c/go/+/833064">golang/go#81545</a>, <a href="https://go-review.googlesource.com/c/go/+/833584">golang/go#81562</a>, <a href="https://go-review.googlesource.com/c/go/+/839746">golang/go#81782</a>, <a href="https://go-review.googlesource.com/c/go/+/839786">golang/go#81786</a>. GitHub closes these imported PRs without setting its merged flag.</p>
-<p><sub>Public upstream PRs authored by me. Open includes 8 drafts and is awaiting upstream acceptance. Stars belong to the upstream repositories. <a href="data/contributions.json">Full contribution audit</a> · <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-10-08 10:45 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
+<p><sub>Public upstream PRs authored by me. Open includes 8 drafts and is awaiting upstream acceptance. Stars belong to the upstream repositories. <a href="data/contributions.json">Full contribution audit</a> · <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-10-08 21:53 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
 <!-- merged-prs:end -->
 
 <p><strong>Issue reports:</strong> <a href="https://github.com/PrefectHQ/fastmcp/issues/5302">PrefectHQ / FastMCP</a> — reported a Windows type-checking failure caused by the unavailable <code>fcntl.flock</code> API. Issue reports are separate from the PR totals above.</p>
 
-<h2>Tech</h2>
-<p align="center">
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&amp;logo=go&amp;logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&amp;logo=typescript&amp;logoColor=white">
-  <img alt="PHP" src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white">
-  <img alt="React" src="https://img.shields.io/badge/React-20232A?style=flat-square&amp;logo=react&amp;logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white">
-  <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&amp;logo=kubernetes&amp;logoColor=white">
-  <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&amp;logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&amp;logo=postgresql&amp;logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white">
+<h2>Languages and tools</h2>
+<p>
+  <a href="https://go.dev"><img src="assets/icons/go.svg" alt="Go" title="Go" width="48" height="48"></a>
+  <a href="https://www.python.org"><img src="assets/icons/python.svg" alt="Python" title="Python" width="48" height="48"></a>
+  <a href="https://www.typescriptlang.org"><img src="assets/icons/typescript.svg" alt="TypeScript" title="TypeScript" width="48" height="48"></a>
+  <a href="https://www.rust-lang.org"><img src="assets/icons/rust.svg" alt="Rust" title="Rust" width="48" height="48"></a>
+  <a href="https://www.php.net"><img src="assets/icons/php.svg" alt="PHP" title="PHP" width="48" height="48"></a>
+  <a href="https://react.dev"><img src="assets/icons/react.svg" alt="React" title="React" width="48" height="48"></a>
+  <a href="https://www.docker.com"><img src="assets/icons/docker.svg" alt="Docker" title="Docker" width="48" height="48"></a>
+  <a href="https://kubernetes.io"><img src="assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="48" height="48"></a>
+  <a href="https://aws.amazon.com"><img src="assets/icons/aws.svg" alt="AWS" title="AWS" width="48" height="48"></a>
+  <a href="https://www.postgresql.org"><img src="assets/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="48" height="48"></a>
+  <a href="https://git-scm.com"><img src="assets/icons/git.svg" alt="Git" title="Git" width="48" height="48"></a>
+  <a href="https://github.com/features/actions"><img src="assets/icons/githubactions.svg" alt="GitHub Actions" title="GitHub Actions" width="48" height="48"></a>
 </p>
+
+<h2>GitHub activity</h2>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/languages-dark.svg">
+    <img src="assets/languages-light.svg" alt="Language breakdown by code bytes in my public, owned, non-fork, non-archived repositories" width="400">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
+    <img src="assets/stats-light.svg" alt="Public commits over the past year, public repositories, and verified merged and open upstream pull requests" width="400">
+  </picture>
+</p>
+<p align="center">
+  <picture>
+    <source media="(max-width: 480px) and (prefers-color-scheme: dark)" srcset="assets/activity-mobile-dark.svg">
+    <source media="(max-width: 480px)" srcset="assets/activity-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg">
+    <img src="assets/activity-light.svg" alt="Contributions over the past year, current streak, and longest streak within that year" width="816">
+  </picture>
+</p>
+<p><sub>Language percentages describe code in my public, owned, non-fork, non-archived repositories. Activity and streaks reflect the past year of my GitHub contribution calendar, using UTC days. <a href="data/profile-cards.json">View the snapshot</a> · Updated daily.</sub></p>
 
 <h2>Contributions</h2>
 <p align="center">

@@ -25,13 +25,21 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
 
       - name: Check contribution selection rules
-        run: python3 scripts/test-refresh.py
+        run: |
+          python3 scripts/test-refresh.py
+          python3 scripts/test-cards.py
 
       - name: Refresh public contribution statistics
         env:
           GH_TOKEN: ${{ github.token }}
           PROFILE_OWNER: ${{ github.repository_owner }}
         run: python3 scripts/refresh-profile.py
+
+      - name: Refresh GitHub activity and language cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: python3 scripts/refresh-cards.py
 
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
@@ -46,6 +54,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md assets/submitted-prs.svg assets/merged-prs.svg assets/open-prs.svg assets/projects.svg assets/upstream-stars.svg assets/merged-small.svg assets/snake-light.svg assets/snake-dark.svg data/contributions.json
+          git add assets/stats-*.svg assets/languages-*.svg assets/activity-*.svg data/profile-cards.json
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh contribution statistics and snake'
             git push
