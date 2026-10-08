@@ -1,6 +1,6 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-10-08 22:08 UTC",
+  "checked_at": "2026-10-08 22:10 UTC",
   "period_start": "2025-10-09",
   "period_end": "2026-10-08",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
@@ -43,7 +43,7 @@
     },
     {
       "name": "Python",
-      "bytes": 365891,
+      "bytes": 360112,
       "color": "#3572A5"
     },
     {
