@@ -6,7 +6,6 @@
 <p align="center">
   <a href="https://github.com/cristiangirlea/tidedesk"><img alt="Featured: TideDesk" src="https://img.shields.io/badge/Featured-TideDesk-0E8A8A?style=flat-square&amp;logo=rust&amp;logoColor=white"></a>
   <a href="https://github.com/cristiangirlea/php-python-ai-bridge"><img alt="Featured: PHP–Python AI Bridge" src="https://img.shields.io/badge/Featured-PHP%E2%80%93Python%20AI%20Bridge-777BB4?style=flat-square&amp;logo=php&amp;logoColor=white"></a>
-  <a href="#open-source-contributions"><img alt="Merged upstream pull requests" src="assets/merged-small.svg?v=10"></a>
 </p>
 
 <ul>
@@ -25,6 +24,15 @@
 
 <h2>Built by me</h2>
 <p>Projects I build and maintain, from desktop software to AI integrations and developer tools.</p>
+
+<h3>🫖 <a href="https://adanext.si/"><code>Ada Next</code></a> · Learn AI by fixing a bot</h3>
+<blockquote><p>Fix the Bot is a free browser game that teaches how AI applications work by repairing Ada, the support bot of a fictional tea shop, one ticket at a time.</p></blockquote>
+<ul>
+  <li>Learning tracks for children, everyday AI users and developers, covering prompts, context, retrieval, agents, testing, security and cost.</li>
+  <li>Checkpoint certificates, progress saved on the device, and offline play after loading.</li>
+  <li>No accounts, ads or tracking. The game uses prewritten content; children's answers are not sent to an AI.</li>
+</ul>
+<p><a href="https://adanext.si/">Website</a> · <a href="https://play.adanext.si/">Play Fix the Bot</a></p>
 
 <h3>🖥️ <a href="https://github.com/cristiangirlea/tidedesk"><code>TideDesk</code></a> · Your computers, within reach</h3>
 <blockquote><p>Remote desktop for Windows with screen sharing, keyboard and mouse control, system audio streaming, and optional text clipboard sharing.</p></blockquote>
@@ -74,7 +82,7 @@
 <p><a href="https://github.com/cristiangirlea/claude-sdlc-kit#quick-start">Quick start</a> · <a href="https://github.com/cristiangirlea/claude-sdlc-kit/blob/main/docs/WALKTHROUGH.md">Walkthrough</a></p>
 
 <h2>Open-source contributions</h2>
-<p>My public contributions span <a href="https://github.com/golang/go">Go</a> (including its network and text libraries), Laravel, Canonical, Temporal, Weaviate, PrefectHQ, Mondoo, and PostHog. The table highlights merged changes and open work awaiting upstream acceptance.</p>
+<p>My public contributions span <a href="https://github.com/golang/go">Go</a> (including its network and text libraries), Laravel, Canonical, Temporal, Weaviate, PrefectHQ, Mondoo, and PostHog. <a href="https://github.com/pulls?q=is%3Apr+author%3Acristiangirlea">Browse my contribution history</a>.</p>
 
 <p align="center">
   <a href="https://github.com/golang/go/pulls?q=is%3Apr+author%3Acristiangirlea"><img alt="Go contributions" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&amp;logo=go&amp;logoColor=white"></a>
@@ -86,56 +94,124 @@
   <a href="https://github.com/PostHog/posthog-go/pulls?q=is%3Apr+author%3Acristiangirlea"><img alt="PostHog contributions" src="https://img.shields.io/badge/PostHog-F54E00?style=flat-square"></a>
 </p>
 
-<!-- merged-prs:start -->
-<p align="center">
-  <img src="assets/merged-prs.svg?v=10" alt="10 merged pull requests">
-  <img src="assets/open-prs.svg?v=41" alt="41 open pull requests">
-  <img src="assets/projects.svg?v=19" alt="19 public upstream repositories with merged or open PRs">
-</p>
-<table>
-<thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th></tr></thead>
-<tbody>
-<tr><td><a href="https://github.com/golang/go"><code>golang/go</code></a></td><td align="right">139,138</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833064%20OR%20change%3A833584%20OR%20change%3A839746%20OR%20change%3A839786%29">4</a></td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A833564%20OR%20change%3A833565%20OR%20change%3A833724%20OR%20change%3A834124%20OR%20change%3A834144%20OR%20change%3A837365%20OR%20change%3A837366%20OR%20change%3A839745%20OR%20change%3A839785%20OR%20change%3A839885%20OR%20change%3A842705%20OR%20change%3A843145%20OR%20change%3A846305%29">13</a></td></tr>
-<tr><td><a href="https://github.com/PrefectHQ/prefect"><code>PrefectHQ/prefect</code></a></td><td align="right">23,991</td><td align="right">0</td><td align="right"><a href="https://github.com/PrefectHQ/prefect/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">7</a></td></tr>
-<tr><td><a href="https://github.com/microsoft/winget-pkgs"><code>microsoft/winget-pkgs</code></a></td><td align="right">11,140</td><td align="right">0</td><td align="right"><a href="https://github.com/microsoft/winget-pkgs/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-<tr><td><a href="https://github.com/laravel/octane"><code>laravel/octane</code></a></td><td align="right">4,046</td><td align="right"><a href="https://github.com/laravel/octane/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/canonical/cloud-init"><code>canonical/cloud-init</code></a></td><td align="right">3,828</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/cloud-init/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">3</a></td></tr>
-<tr><td><a href="https://github.com/golang/net"><code>golang/net</code></a></td><td align="right">3,044</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A839805%20OR%20change%3A843165%29">2</a></td></tr>
-<tr><td><a href="https://github.com/temporalio/sdk-typescript"><code>temporalio/sdk-typescript</code></a></td><td align="right">935</td><td align="right">0</td><td align="right"><a href="https://github.com/temporalio/sdk-typescript/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-<tr><td><a href="https://github.com/golang/text"><code>golang/text</code></a></td><td align="right">809</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A839825%20OR%20change%3A839845%29">2</a></td></tr>
-<tr><td><a href="https://github.com/snowflakedb/snowflake-connector-python"><code>snowflakedb/snowflake-connector-python</code></a></td><td align="right">732</td><td align="right">0</td><td align="right"><a href="https://github.com/snowflakedb/snowflake-connector-python/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">2</a></td></tr>
-<tr><td><a href="https://github.com/golang/image"><code>golang/image</code></a></td><td align="right">551</td><td align="right">0</td><td align="right"><a href="https://go-review.googlesource.com/q/%28change%3A842805%29">1</a></td></tr>
-<tr><td><a href="https://github.com/mondoohq/cnspec"><code>mondoohq/cnspec</code></a></td><td align="right">439</td><td align="right"><a href="https://github.com/mondoohq/cnspec/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">2</a></td><td align="right"><a href="https://github.com/mondoohq/cnspec/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-<tr><td><a href="https://github.com/canonical/chisel"><code>canonical/chisel</code></a></td><td align="right">429</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/chisel/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-<tr><td><a href="https://github.com/canonical/operator"><code>canonical/operator</code></a></td><td align="right">268</td><td align="right"><a href="https://github.com/canonical/operator/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">1</a></td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/canonical/pebble"><code>canonical/pebble</code></a></td><td align="right">212</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/pebble/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-<tr><td><a href="https://github.com/weaviate/weaviate-helm"><code>weaviate/weaviate-helm</code></a></td><td align="right">69</td><td align="right">0</td><td align="right"><a href="https://github.com/weaviate/weaviate-helm/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">3</a></td></tr>
-<tr><td><a href="https://github.com/PostHog/posthog-go"><code>PostHog/posthog-go</code></a></td><td align="right">55</td><td align="right"><a href="https://github.com/PostHog/posthog-go/pulls?q=is%3Apr+is%3Amerged+author%3Acristiangirlea">2</a></td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/temporalio/terraform-provider-temporalcloud"><code>temporalio/terraform-provider-temporalcloud</code></a></td><td align="right">26</td><td align="right">0</td><td align="right"><a href="https://github.com/temporalio/terraform-provider-temporalcloud/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-<tr><td><a href="https://github.com/canonical/concierge"><code>canonical/concierge</code></a></td><td align="right">17</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/concierge/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-<tr><td><a href="https://github.com/canonical/traefik-k8s-operator"><code>canonical/traefik-k8s-operator</code></a></td><td align="right">17</td><td align="right">0</td><td align="right"><a href="https://github.com/canonical/traefik-k8s-operator/pulls?q=is%3Apr+is%3Aopen+author%3Acristiangirlea">1</a></td></tr>
-</tbody></table>
-<p id="gerrit-merge-evidence"><strong>Merged through Go Gerrit:</strong> <a href="https://go-review.googlesource.com/c/go/+/833064">golang/go#81545</a>, <a href="https://go-review.googlesource.com/c/go/+/833584">golang/go#81562</a>, <a href="https://go-review.googlesource.com/c/go/+/839746">golang/go#81782</a>, <a href="https://go-review.googlesource.com/c/go/+/839786">golang/go#81786</a>. GitHub closes these imported PRs without setting its merged flag.</p>
-<p><sub>Public upstream PRs authored by me. Open includes 8 drafts and is awaiting upstream acceptance. Stars belong to the upstream repositories. <a href="data/contributions.json">Full contribution audit</a> · <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed 2026-10-08 21:57 UTC by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>
-<!-- merged-prs:end -->
-
 <p><strong>Issue reports:</strong> <a href="https://github.com/PrefectHQ/fastmcp/issues/5302">PrefectHQ / FastMCP</a> — reported a Windows type-checking failure caused by the unavailable <code>fcntl.flock</code> API. Issue reports are separate from the PR totals above.</p>
 
-<h2>Languages and tools</h2>
+<h2>Languages, frameworks and tools</h2>
+<p>Across professional work and personal projects.</p>
+<h3>Languages and runtimes</h3>
 <p>
-  <a href="https://go.dev"><img src="assets/icons/go.svg" alt="Go" title="Go" width="48" height="48"></a>
-  <a href="https://www.python.org"><img src="assets/icons/python.svg" alt="Python" title="Python" width="48" height="48"></a>
-  <a href="https://www.typescriptlang.org"><img src="assets/icons/typescript.svg" alt="TypeScript" title="TypeScript" width="48" height="48"></a>
-  <a href="https://www.rust-lang.org"><img src="assets/icons/rust.svg" alt="Rust" title="Rust" width="48" height="48"></a>
-  <a href="https://www.php.net"><img src="assets/icons/php.svg" alt="PHP" title="PHP" width="48" height="48"></a>
-  <a href="https://react.dev"><img src="assets/icons/react.svg" alt="React" title="React" width="48" height="48"></a>
-  <a href="https://www.docker.com"><img src="assets/icons/docker.svg" alt="Docker" title="Docker" width="48" height="48"></a>
-  <a href="https://kubernetes.io"><img src="assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="48" height="48"></a>
-  <a href="https://aws.amazon.com"><img src="assets/icons/aws.svg" alt="AWS" title="AWS" width="48" height="48"></a>
-  <a href="https://www.postgresql.org"><img src="assets/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="48" height="48"></a>
-  <a href="https://git-scm.com"><img src="assets/icons/git.svg" alt="Git" title="Git" width="48" height="48"></a>
-  <a href="https://github.com/features/actions"><img src="assets/icons/githubactions.svg" alt="GitHub Actions" title="GitHub Actions" width="48" height="48"></a>
+  <img src="assets/icons/go.svg" alt="Go" title="Go" width="42" height="42">
+  <img src="assets/icons/python.svg" alt="Python" title="Python" width="42" height="42">
+  <img src="assets/icons/typescript.svg" alt="TypeScript" title="TypeScript" width="42" height="42">
+  <img src="assets/icons/javascript.svg" alt="JavaScript" title="JavaScript" width="42" height="42">
+  <img src="assets/icons/php.svg" alt="PHP" title="PHP" width="42" height="42">
+  <img src="assets/icons/rust.svg" alt="Rust" title="Rust" width="42" height="42">
+  <img src="assets/icons/csharp.svg" alt="C#" title="C#" width="42" height="42">
+  <img src="assets/icons/java.svg" alt="Java" title="Java" width="42" height="42">
+  <img src="assets/icons/kotlin.svg" alt="Kotlin" title="Kotlin" width="42" height="42">
+  <img src="assets/icons/perl.svg" alt="Perl" title="Perl" width="42" height="42">
+  <img src="assets/icons/nodejs.svg" alt="Node.js" title="Node.js" width="42" height="42">
+  <img src="assets/icons/html5.svg" alt="HTML" title="HTML" width="42" height="42">
+  <img src="assets/icons/css3.svg" alt="CSS" title="CSS" width="42" height="42">
+  <img src="assets/icons/powershell.svg" alt="PowerShell" title="PowerShell" width="42" height="42">
 </p>
+<p>Go · Python · TypeScript · JavaScript · PHP · SQL · Rust · C# · Java · Kotlin · Perl · Node.js · HTML · CSS · PowerShell · V8</p>
+<h3>Backend frameworks and APIs</h3>
+<p>
+  <img src="assets/icons/fastapi.svg" alt="FastAPI" title="FastAPI" width="42" height="42">
+  <img src="assets/icons/flask.svg" alt="Flask" title="Flask" width="42" height="42">
+  <img src="assets/icons/fiber.svg" alt="Fiber" title="Fiber" width="42" height="42">
+  <img src="assets/icons/express.svg" alt="Express.js" title="Express.js" width="42" height="42">
+  <img src="assets/icons/nestjs.svg" alt="NestJS" title="NestJS" width="42" height="42">
+  <img src="assets/icons/laravel.svg" alt="Laravel" title="Laravel" width="42" height="42">
+  <img src="assets/icons/symfony.svg" alt="Symfony" title="Symfony" width="42" height="42">
+  <img src="assets/icons/codeigniter.svg" alt="CodeIgniter" title="CodeIgniter" width="42" height="42">
+  <img src="assets/icons/cakephp.svg" alt="CakePHP" title="CakePHP" width="42" height="42">
+  <img src="assets/icons/yii.svg" alt="Yii2" title="Yii2" width="42" height="42">
+</p>
+<p>FastAPI · Flask · Fiber · Express.js · NestJS · Laravel · Symfony · CodeIgniter · CakePHP · Yii2 · Pydantic · FrankenPHP · API Platform · REST · SOAP · gRPC / grpc-go · Protobuf · ConnectRPC · OpenAPI / Swagger · JSON-RPC · webhooks · async jobs</p>
+<h3>Frontend and UI</h3>
+<p>
+  <img src="assets/icons/react.svg" alt="React" title="React" width="42" height="42">
+  <img src="assets/icons/nextjs.svg" alt="Next.js" title="Next.js" width="42" height="42">
+  <img src="assets/icons/vuejs.svg" alt="Vue.js" title="Vue.js" width="42" height="42">
+  <img src="assets/icons/angular.svg" alt="Angular" title="Angular" width="42" height="42">
+  <img src="assets/icons/angularjs.svg" alt="AngularJS" title="AngularJS" width="42" height="42">
+  <img src="assets/icons/jquery.svg" alt="jQuery" title="jQuery" width="42" height="42">
+  <img src="assets/icons/bootstrap.svg" alt="Bootstrap" title="Bootstrap" width="42" height="42">
+  <img src="assets/icons/tailwindcss.svg" alt="Tailwind CSS" title="Tailwind CSS" width="42" height="42">
+</p>
+<p>React · Next.js · Vue.js · Angular · AngularJS · jQuery · Bootstrap · Tailwind CSS · Module Federation</p>
+<h3>Databases, search and messaging</h3>
+<p>
+  <img src="assets/icons/postgresql.svg" alt="PostgreSQL" title="PostgreSQL" width="42" height="42">
+  <img src="assets/icons/mysql.svg" alt="MySQL" title="MySQL" width="42" height="42">
+  <img src="assets/icons/mariadb.svg" alt="MariaDB" title="MariaDB" width="42" height="42">
+  <img src="assets/icons/microsoftsqlserver.svg" alt="SQL Server" title="SQL Server" width="42" height="42">
+  <img src="assets/icons/mongodb.svg" alt="MongoDB" title="MongoDB" width="42" height="42">
+  <img src="assets/icons/redis.svg" alt="Redis" title="Redis" width="42" height="42">
+  <img src="assets/icons/elasticsearch.svg" alt="Elasticsearch" title="Elasticsearch" width="42" height="42">
+  <img src="assets/icons/dynamodb.svg" alt="DynamoDB" title="DynamoDB" width="42" height="42">
+  <img src="assets/icons/supabase.svg" alt="Supabase" title="Supabase" width="42" height="42">
+  <img src="assets/icons/prisma.svg" alt="Prisma" title="Prisma" width="42" height="42">
+  <img src="assets/icons/apachekafka.svg" alt="Kafka" title="Kafka" width="42" height="42">
+  <img src="assets/icons/rabbitmq.svg" alt="RabbitMQ" title="RabbitMQ" width="42" height="42">
+</p>
+<p>PostgreSQL · MySQL · MariaDB · SQL Server · MongoDB · Redis · Elasticsearch · DynamoDB · Supabase · Prisma · Kafka · RabbitMQ · Beanstalkd · Hatchet · SQS queues</p>
+<h3>Cloud and hosting</h3>
+<p>
+  <img src="assets/icons/aws.svg" alt="AWS" title="AWS" width="42" height="42">
+  <img src="assets/icons/azure.svg" alt="Azure" title="Azure" width="42" height="42">
+  <img src="assets/icons/googlecloud.svg" alt="Google Cloud" title="Google Cloud" width="42" height="42">
+  <img src="assets/icons/digitalocean.svg" alt="DigitalOcean" title="DigitalOcean" width="42" height="42">
+  <img src="assets/icons/cloudflare.svg" alt="Cloudflare / Cloudflare Pages" title="Cloudflare / Cloudflare Pages" width="42" height="42">
+  <img src="assets/icons/linux.svg" alt="Linux" title="Linux" width="42" height="42">
+</p>
+<p>AWS · Azure · Google Cloud · DigitalOcean · Cloudflare / Cloudflare Pages · Linux · AWS EKS · EC2 · Lambda · SAM · CodeBuild · S3 · RDS · EventBridge · SNS · SQS · ECR · IAM · Secrets Manager · QuickSight · Azure AKS · Azure Functions · Azure Key Vault</p>
+<h3>Containers, infrastructure and GitOps</h3>
+<p>
+  <img src="assets/icons/docker.svg" alt="Docker / Docker Compose" title="Docker / Docker Compose" width="42" height="42">
+  <img src="assets/icons/kubernetes.svg" alt="Kubernetes" title="Kubernetes" width="42" height="42">
+  <img src="assets/icons/terraform.svg" alt="Terraform" title="Terraform" width="42" height="42">
+  <img src="assets/icons/argocd.svg" alt="Argo CD" title="Argo CD" width="42" height="42">
+</p>
+<p>Docker / Docker Compose · Kubernetes · Terraform · OpenTofu · Kustomize · Flux · Argo CD · KEDA · Skaffold · Minikube · K9s</p>
+<h3>Delivery and testing</h3>
+<p>
+  <img src="assets/icons/git.svg" alt="Git" title="Git" width="42" height="42">
+  <img src="assets/icons/githubactions.svg" alt="GitHub Actions" title="GitHub Actions" width="42" height="42">
+  <img src="assets/icons/gitlab.svg" alt="GitLab CI" title="GitLab CI" width="42" height="42">
+  <img src="assets/icons/azuredevops.svg" alt="Azure DevOps Pipelines" title="Azure DevOps Pipelines" width="42" height="42">
+  <img src="assets/icons/jenkins.svg" alt="Jenkins" title="Jenkins" width="42" height="42">
+  <img src="assets/icons/bitbucket.svg" alt="Bitbucket CI/CD" title="Bitbucket CI/CD" width="42" height="42">
+  <img src="assets/icons/playwright.svg" alt="Playwright" title="Playwright" width="42" height="42">
+  <img src="assets/icons/puppeteer.svg" alt="Puppeteer" title="Puppeteer" width="42" height="42">
+  <img src="assets/icons/pytest.svg" alt="pytest" title="pytest" width="42" height="42">
+  <img src="assets/icons/jest.svg" alt="Jest" title="Jest" width="42" height="42">
+</p>
+<p>Git · GitHub Actions · GitLab CI · Azure DevOps Pipelines · Jenkins · Bitbucket CI/CD · Nx · Playwright · Puppeteer · pytest · Jest · PHPUnit · Go test · canary testing · end-to-end testing · fault-injection testing</p>
+<h3>Observability and reliability</h3>
+<p>
+  <img src="assets/icons/prometheus.svg" alt="Prometheus" title="Prometheus" width="42" height="42">
+  <img src="assets/icons/grafana.svg" alt="Grafana" title="Grafana" width="42" height="42">
+  <img src="assets/icons/opentelemetry.svg" alt="OpenTelemetry" title="OpenTelemetry" width="42" height="42">
+  <img src="assets/icons/sentry.svg" alt="Sentry" title="Sentry" width="42" height="42">
+</p>
+<p>Prometheus · Grafana · OpenTelemetry · Sentry · CloudWatch</p>
+<h3>AI, inference and agent tooling</h3>
+<p>
+  <img src="assets/icons/vscode.svg" alt="VS Code" title="VS Code" width="42" height="42">
+</p>
+<p>MLflow · ONNX Runtime · Ollama · LiteLLM · OpenAI APIs · Anthropic API · Foundry-hosted models · RAG · embeddings and semantic search · cross-encoder reranking · LLM evaluation / LLM-as-judge · synthetic datasets · structured outputs and guardrails · MCP clients and servers · Claude Code · Codex · Cursor · Gemini CLI · opencode · VS Code · agent skills, roles and hooks</p>
+<h3>Microsoft, identity and security</h3>
+<p>Power Apps · Canvas Apps · Model-Driven Apps · Power Automate · Dataverse / CDS · PCF controls · Dataverse plug-ins · Microsoft 365 / Office 365 · SharePoint · Azure AD · Active Directory · OAuth 2.0 / OIDC · SSO · JWT · RBAC / ABAC · multi-tenancy · SOPS · PKI · AD CS · SCEP · Group Policy</p>
+<h3>Desktop, games and product integrations</h3>
+<p>
+  <img src="assets/icons/unity.svg" alt="Unity 6" title="Unity 6" width="42" height="42">
+  <img src="assets/icons/android.svg" alt="Android" title="Android" width="42" height="42">
+  <img src="assets/icons/windows11.svg" alt="Windows" title="Windows" width="42" height="42">
+</p>
+<p>Unity 6 · URP / IL2CPP · Android · Windows · QUIC · H.264 / Opus · STUN / NAT traversal · Google Play Billing · Stripe Connect · Paddle · GA4 · Google Tag Manager · OneTrust · XML / UBL</p>
 
 <h2>GitHub activity</h2>
 <p align="center">
@@ -145,7 +221,7 @@
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
-    <img src="assets/stats-light.svg" alt="Public commits over the past year, public repositories, and verified merged and open upstream pull requests" width="400">
+    <img src="assets/stats-light.svg" alt="Public commits, repositories, repository languages, and active contribution days over the past year" width="400">
   </picture>
 </p>
 <p align="center">

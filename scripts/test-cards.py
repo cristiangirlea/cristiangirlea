@@ -35,7 +35,7 @@ class Cards(unittest.TestCase):
                 cards.graphql({})
 
     def test_cards_are_valid_svg_with_clear_scopes_and_escaped_languages(self):
-        snapshot = {'stars': 15, 'public_commits': 90, 'repositories': 6, 'upstream_merged': 10, 'upstream_open': 41,
+        snapshot = {'stars': 15, 'public_commits': 90, 'repositories': 6, 'active_days': 12,
                     'languages': [{'name': 'C++ & C#', 'bytes': 100, 'color': '#245bcc'}],
                     'calendar_contributions': 100, 'streaks': {'current': 2, 'longest': 10},
                     'period_start': '2025-10-10', 'period_end': '2026-10-09'}
@@ -46,7 +46,8 @@ class Cards(unittest.TestCase):
             self.assertIn('C++ &amp; C#', rendered['languages'])
             self.assertIn('100.0%', rendered['languages'])
             self.assertIn('within the past year', rendered['activity'])
-            self.assertIn('Merged upstream PRs', rendered['stats'])
+            self.assertIn('Active days', rendered['stats'])
+            self.assertNotIn('PRs', rendered['stats'])
 
 
 if __name__ == '__main__':

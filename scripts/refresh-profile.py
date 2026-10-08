@@ -1,16 +1,14 @@
-"""Refresh public upstream contribution counts, badges and README table."""
+"""Refresh the public upstream contribution audit."""
 import json
 import os
 import re
 from collections import Counter
 from datetime import datetime, timezone
-from html import escape
 from pathlib import Path
-from urllib.parse import quote, urlencode
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
-START, END = '<!-- merged-prs:start -->', '<!-- merged-prs:end -->'
 # Profile exclusions apply to discovery AND counting so refreshes cannot restore them.
 EXCLUDED_ORGS = {'herams-who', 'yiisoft'}
 
@@ -128,68 +126,13 @@ def collect(owner):
     return sorted(repos, key=lambda r: (-r['stars'], r['name'].lower()))
 
 
-def badge(label, value, color, large=False):
-    height, font = (28, 11) if large else (20, 11)
-    label = label.upper() if large else label
-    left = round(len(label) * 7.4 + 22)
-    right = max(34, round(len(str(value)) * 7.5 + 22))
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{left+right}" height="{height}" role="img" aria-label="{escape(label)}: {value}">
-<title>{escape(label)}: {value}</title><path fill="#555" d="M0 0h{left}v{height}H0z"/><path fill="#{color}" d="M{left} 0h{right}v{height}H{left}z"/>
-<g fill="#fff" text-anchor="middle" font-family="Verdana,DejaVu Sans,sans-serif" font-size="{font}"><text x="{left/2}" y="{height/2+4}">{escape(label)}</text><text x="{left+right/2}" y="{height/2+4}" font-weight="bold">{value}</text></g></svg>\n'''
-
-
 def publish(repos, owner):
-    readme_path = ROOT / 'README.md'
-    readme = readme_path.read_text(encoding='utf-8')
-    if readme.count(START) != 1 or readme.count(END) != 1:
-        raise ValueError('README must have exactly one contribution block')
-    total = sum(r['merged'] for r in repos)
-    submitted = sum(r['merged'] + r['open'] + r['closed'] for r in repos)
-    opened = sum(r['open'] for r in repos)
-    featured = [r for r in repos if r['merged'] or r['open']]
-    drafts = sum(r['draft'] for r in repos)
-    stars = sum(r['stars'] for r in featured)
-    badges = {'merged-prs.svg': badge('Merged PRs', total, '8250DF', True),
-              'submitted-prs.svg': badge('Submitted PRs', submitted, '0969DA', True),
-              'open-prs.svg': badge('Open PRs', opened, '0969DA', True),
-              'projects.svg': badge('Repositories', len(featured), '0969DA', True),
-              'upstream-stars.svg': badge('Upstream stars', stars, '9D7209', True),
-              'merged-small.svg': badge('Merged PRs', total, '8250DF')}
+    """Keep the contribution audit without adding PR totals to the profile."""
     stamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
-    rows = []
-    for repo in featured:
-        name = escape(repo['name'])
-        cells = []
-        for state, qualifier in [('merged', 'is:merged'), ('open', 'is:open')]:
-            search = 'https://github.com/' + repo['name'] + '/pulls?' + urlencode({'q': f'is:pr {qualifier} author:{owner}'})
-            evidence = [e for e in repo.get('gerrit', []) if e['state'] == state]
-            if evidence:
-                changes = ' OR '.join('change:' + e['url'].rsplit('/', 1)[1] for e in evidence)
-                search = 'https://go-review.googlesource.com/q/' + quote('(' + changes + ')', safe='')
-            if not repo[state]:
-                cells.append('<td align="right">0</td>')
-                continue
-            cells.append(f'<td align="right"><a href="{escape(search, quote=True)}">{repo[state]}</a></td>')
-        rows.append(f'<tr><td><a href="https://github.com/{name}"><code>{name}</code></a></td><td align="right">{repo["stars"]:,}</td>' + ''.join(cells) + '</tr>')
-    block = '\n'.join([START, '<p align="center">',
-        f'  <img src="assets/merged-prs.svg?v={total}" alt="{total} merged pull requests">',
-        f'  <img src="assets/open-prs.svg?v={opened}" alt="{opened} open pull requests">',
-        f'  <img src="assets/projects.svg?v={len(featured)}" alt="{len(featured)} public upstream repositories with merged or open PRs">',
-        '</p>', '<table>', '<thead><tr><th>Project</th><th>★</th><th>Merged</th><th>Open</th></tr></thead>',
-        '<tbody>', *rows, '</tbody></table>',
-        '<p id="gerrit-merge-evidence"><strong>Merged through Go Gerrit:</strong> ' + ', '.join(f'<a href="{e["url"]}">{escape(r["name"])}#{e["number"]}</a>' for r in repos for e in r.get('gerrit', []) if e['state'] == 'merged') + '. GitHub closes these imported PRs without setting its merged flag.</p>',
-        f'<p><sub>Public upstream PRs authored by me. Open includes {drafts} drafts and is awaiting upstream acceptance. Stars belong to the upstream repositories. <a href="data/contributions.json">Full contribution audit</a> · <a href="scripts/refresh-profile.py">Selection rules</a> · Refreshed {stamp} by <a href=".github/workflows/refresh.yml">GitHub Actions</a>.</sub></p>', END])
-    updated = re.sub(re.escape(START) + r'.*?' + re.escape(END), lambda _: block, readme, flags=re.S)
-    updated = re.sub(r'src="assets/merged-small\.svg(?:\?v=\d+)?"',
-                     f'src="assets/merged-small.svg?v={total}"', updated)
-    # Validate everything before replacing the previous published snapshot.
-    (ROOT / 'assets').mkdir(exist_ok=True)
-    for name, contents in badges.items():
-        (ROOT / 'assets' / name).write_text(contents, encoding='utf-8')
     (ROOT / 'data').mkdir(exist_ok=True)
-    (ROOT / 'data' / 'contributions.json').write_text(json.dumps({'checked_at': stamp, 'owner': owner, 'repositories': repos}, indent=2) + '\n', encoding='utf-8')
-    readme_path.write_text(updated, encoding='utf-8')
-    print(f'Refreshed {total} merged and {opened} open PRs across {len(featured)} featured repositories; {submitted} submissions retained in the audit.')
+    (ROOT / 'data' / 'contributions.json').write_text(
+        json.dumps({'checked_at': stamp, 'owner': owner, 'repositories': repos}, indent=2) + '\n', encoding='utf-8')
+    print(f'Refreshed the contribution audit across {len(repos)} public repositories.')
 
 
 if __name__ == '__main__':

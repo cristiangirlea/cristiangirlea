@@ -96,9 +96,6 @@ def collect(owner, now=None):
             if start.isoformat() <= d['date'] <= today.isoformat()]
     if len(days) != 365 or sum(d['contributionCount'] for d in days) != calendar['totalContributions']:
         raise ValueError('Incomplete contribution calendar totals')
-    upstream = json.loads((ROOT / 'data/contributions.json').read_text(encoding='utf-8'))
-    if upstream['owner'] != owner:
-        raise ValueError('Upstream contribution snapshot belongs to another user')
     language_rows = [{'name': name, 'bytes': size, 'color': colors[name]}
                      for name, size in languages.most_common()]
     return {'owner': owner, 'checked_at': now.strftime('%Y-%m-%d %H:%M UTC'),
@@ -108,9 +105,8 @@ def collect(owner, now=None):
             'repository_names': sorted(r['nameWithOwner'] for r in repos),
             'languages': language_rows, 'calendar_contributions': calendar['totalContributions'],
             'public_commits': public_commits,
-            'streaks': streaks(days, today),
-            'upstream_merged': sum(r['merged'] for r in upstream['repositories']),
-            'upstream_open': sum(r['open'] for r in upstream['repositories'])}
+            'active_days': sum(d['contributionCount'] > 0 for d in days),
+            'streaks': streaks(days, today)}
 
 
 def text(x, y, value, color, size=14, weight=400, anchor='start'):
@@ -133,7 +129,7 @@ def card(title, width, height, content, theme):
 def render(snapshot, theme):
     def stats(ink, muted, accent):
         rows = [('Public commits · past year', snapshot['public_commits']), ('Public repositories', snapshot['repositories']),
-                ('Merged upstream PRs', snapshot['upstream_merged']), ('Open upstream PRs', snapshot['upstream_open'])]
+                ('Repository languages', len(snapshot['languages'])), ('Active days · past year', snapshot['active_days'])]
         return ''.join(text(24, 79 + i * 34, label, muted) + text(372, 79 + i * 34, f'{value:,}', ink, 19, 600, 'end')
                        for i, (label, value) in enumerate(rows)) + text(24, 229, 'Public work · refreshed daily', muted, 11)
 

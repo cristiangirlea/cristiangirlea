@@ -1,0 +1,234 @@
+{
+  "basis": "Published technical architect CV, detailed engineering CV, earlier detailed CV for historical frameworks, and public portfolio",
+  "portfolio": "https://cristiangirlea.ro",
+  "categories": [
+    {
+      "name": "Languages and runtimes",
+      "technologies": [
+        "Go",
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "PHP",
+        "SQL",
+        "Rust",
+        "C#",
+        "Java",
+        "Kotlin",
+        "Perl",
+        "Node.js",
+        "HTML",
+        "CSS",
+        "PowerShell",
+        "V8"
+      ]
+    },
+    {
+      "name": "Backend frameworks and APIs",
+      "technologies": [
+        "FastAPI",
+        "Flask",
+        "Fiber",
+        "Express.js",
+        "NestJS",
+        "Laravel",
+        "Symfony",
+        "CodeIgniter",
+        "CakePHP",
+        "Yii2",
+        "Pydantic",
+        "FrankenPHP",
+        "API Platform",
+        "REST",
+        "SOAP",
+        "gRPC / grpc-go",
+        "Protobuf",
+        "ConnectRPC",
+        "OpenAPI / Swagger",
+        "JSON-RPC",
+        "webhooks",
+        "async jobs"
+      ]
+    },
+    {
+      "name": "Frontend and UI",
+      "technologies": [
+        "React",
+        "Next.js",
+        "Vue.js",
+        "Angular",
+        "AngularJS",
+        "jQuery",
+        "Bootstrap",
+        "Tailwind CSS",
+        "Module Federation"
+      ]
+    },
+    {
+      "name": "Databases, search and messaging",
+      "technologies": [
+        "PostgreSQL",
+        "MySQL",
+        "MariaDB",
+        "SQL Server",
+        "MongoDB",
+        "Redis",
+        "Elasticsearch",
+        "DynamoDB",
+        "Supabase",
+        "Prisma",
+        "Kafka",
+        "RabbitMQ",
+        "Beanstalkd",
+        "Hatchet",
+        "SQS queues"
+      ]
+    },
+    {
+      "name": "Cloud and hosting",
+      "technologies": [
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "DigitalOcean",
+        "Cloudflare / Cloudflare Pages",
+        "Linux",
+        "AWS EKS",
+        "EC2",
+        "Lambda",
+        "SAM",
+        "CodeBuild",
+        "S3",
+        "RDS",
+        "EventBridge",
+        "SNS",
+        "SQS",
+        "ECR",
+        "IAM",
+        "Secrets Manager",
+        "QuickSight",
+        "Azure AKS",
+        "Azure Functions",
+        "Azure Key Vault"
+      ]
+    },
+    {
+      "name": "Containers, infrastructure and GitOps",
+      "technologies": [
+        "Docker / Docker Compose",
+        "Kubernetes",
+        "Terraform",
+        "OpenTofu",
+        "Kustomize",
+        "Flux",
+        "Argo CD",
+        "KEDA",
+        "Skaffold",
+        "Minikube",
+        "K9s"
+      ]
+    },
+    {
+      "name": "Delivery and testing",
+      "technologies": [
+        "Git",
+        "GitHub Actions",
+        "GitLab CI",
+        "Azure DevOps Pipelines",
+        "Jenkins",
+        "Bitbucket CI/CD",
+        "Nx",
+        "Playwright",
+        "Puppeteer",
+        "pytest",
+        "Jest",
+        "PHPUnit",
+        "Go test",
+        "canary testing",
+        "end-to-end testing",
+        "fault-injection testing"
+      ]
+    },
+    {
+      "name": "Observability and reliability",
+      "technologies": [
+        "Prometheus",
+        "Grafana",
+        "OpenTelemetry",
+        "Sentry",
+        "CloudWatch"
+      ]
+    },
+    {
+      "name": "AI, inference and agent tooling",
+      "technologies": [
+        "MLflow",
+        "ONNX Runtime",
+        "Ollama",
+        "LiteLLM",
+        "OpenAI APIs",
+        "Anthropic API",
+        "Foundry-hosted models",
+        "RAG",
+        "embeddings and semantic search",
+        "cross-encoder reranking",
+        "LLM evaluation / LLM-as-judge",
+        "synthetic datasets",
+        "structured outputs and guardrails",
+        "MCP clients and servers",
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "Gemini CLI",
+        "opencode",
+        "VS Code",
+        "agent skills, roles and hooks"
+      ]
+    },
+    {
+      "name": "Microsoft, identity and security",
+      "technologies": [
+        "Power Apps",
+        "Canvas Apps",
+        "Model-Driven Apps",
+        "Power Automate",
+        "Dataverse / CDS",
+        "PCF controls",
+        "Dataverse plug-ins",
+        "Microsoft 365 / Office 365",
+        "SharePoint",
+        "Azure AD",
+        "Active Directory",
+        "OAuth 2.0 / OIDC",
+        "SSO",
+        "JWT",
+        "RBAC / ABAC",
+        "multi-tenancy",
+        "SOPS",
+        "PKI",
+        "AD CS",
+        "SCEP",
+        "Group Policy"
+      ]
+    },
+    {
+      "name": "Desktop, games and product integrations",
+      "technologies": [
+        "Unity 6",
+        "URP / IL2CPP",
+        "Android",
+        "Windows",
+        "QUIC",
+        "H.264 / Opus",
+        "STUN / NAT traversal",
+        "Google Play Billing",
+        "Stripe Connect",
+        "Paddle",
+        "GA4",
+        "Google Tag Manager",
+        "OneTrust",
+        "XML / UBL"
+      ]
+    }
+  ]
+}
