@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-11 10:09 UTC",
+  "checked_at": "2026-10-12 11:05 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -8,7 +8,7 @@
       "open": 13,
       "closed": 0,
       "draft": 0,
-      "stars": 139196,
+      "stars": 139216,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -138,7 +138,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34958,
+      "stars": 34959,
       "gerrit": [],
       "merged_prs": []
     },
@@ -148,7 +148,7 @@
       "open": 7,
       "closed": 0,
       "draft": 5,
-      "stars": 24001,
+      "stars": 24006,
       "gerrit": [],
       "merged_prs": []
     },
@@ -158,7 +158,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11156,
+      "stars": 11162,
       "gerrit": [],
       "merged_prs": []
     },
@@ -168,7 +168,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4666,
+      "stars": 4665,
       "gerrit": [],
       "merged_prs": []
     },
@@ -178,7 +178,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4048,
+      "stars": 4050,
       "gerrit": [],
       "merged_prs": [
         {
@@ -193,7 +193,7 @@
       "open": 3,
       "closed": 0,
       "draft": 0,
-      "stars": 3830,
+      "stars": 3831,
       "gerrit": [],
       "merged_prs": []
     },
@@ -375,13 +375,18 @@
     },
     {
       "name": "canonical/concierge",
-      "merged": 0,
-      "open": 1,
+      "merged": 1,
+      "open": 0,
       "closed": 0,
       "draft": 0,
       "stars": 17,
       "gerrit": [],
-      "merged_prs": []
+      "merged_prs": [
+        {
+          "pr": "https://github.com/canonical/concierge/pull/277",
+          "evidence": "https://github.com/canonical/concierge/pull/277"
+        }
+      ]
     },
     {
       "name": "canonical/traefik-k8s-operator",
