@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12 11:05 UTC",
+  "checked_at": "2026-10-13 10:47 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -8,7 +8,7 @@
       "open": 13,
       "closed": 0,
       "draft": 0,
-      "stars": 139216,
+      "stars": 139245,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -138,7 +138,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34959,
+      "stars": 34960,
       "gerrit": [],
       "merged_prs": []
     },
@@ -148,7 +148,7 @@
       "open": 7,
       "closed": 0,
       "draft": 5,
-      "stars": 24006,
+      "stars": 24013,
       "gerrit": [],
       "merged_prs": []
     },
@@ -158,7 +158,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11162,
+      "stars": 11168,
       "gerrit": [],
       "merged_prs": []
     },
@@ -190,10 +190,10 @@
     {
       "name": "canonical/cloud-init",
       "merged": 0,
-      "open": 3,
+      "open": 4,
       "closed": 0,
       "draft": 0,
-      "stars": 3831,
+      "stars": 3832,
       "gerrit": [],
       "merged_prs": []
     },
@@ -203,7 +203,7 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 3044,
+      "stars": 3045,
       "gerrit": [
         {
           "pr": "https://github.com/golang/net/pull/269",
@@ -236,7 +236,7 @@
       "open": 2,
       "closed": 0,
       "draft": 0,
-      "stars": 809,
+      "stars": 810,
       "gerrit": [
         {
           "pr": "https://github.com/golang/text/pull/72",
@@ -269,7 +269,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 551,
+      "stars": 552,
       "gerrit": [
         {
           "pr": "https://github.com/golang/image/pull/39",
@@ -390,13 +390,18 @@
     },
     {
       "name": "canonical/traefik-k8s-operator",
-      "merged": 0,
-      "open": 1,
+      "merged": 1,
+      "open": 0,
       "closed": 0,
       "draft": 0,
       "stars": 17,
       "gerrit": [],
-      "merged_prs": []
+      "merged_prs": [
+        {
+          "pr": "https://github.com/canonical/traefik-k8s-operator/pull/782",
+          "evidence": "https://github.com/canonical/traefik-k8s-operator/pull/782"
+        }
+      ]
     }
   ]
 }
