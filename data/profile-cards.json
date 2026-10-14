@@ -1,16 +1,18 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-10-13 10:47 UTC",
-  "period_start": "2025-10-14",
-  "period_end": "2026-10-13",
+  "checked_at": "2026-10-14 08:51 UTC",
+  "period_start": "2025-10-15",
+  "period_end": "2026-10-14",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
-  "repositories": 26,
+  "repositories": 30,
   "stars": 0,
   "repository_names": [
     "cristiangirlea/GitReportGenerator",
     "cristiangirlea/OScapeDLCapture",
     "cristiangirlea/TypeFormTest",
+    "cristiangirlea/adanext-exec",
     "cristiangirlea/adanext-map",
+    "cristiangirlea/adanext-os",
     "cristiangirlea/classify-sessions",
     "cristiangirlea/claude-sdlc-kit",
     "cristiangirlea/cra-release-desk",
@@ -20,7 +22,9 @@
     "cristiangirlea/fuel-cost-mobile",
     "cristiangirlea/fuel-cost-platform",
     "cristiangirlea/harness",
+    "cristiangirlea/hrn-evals",
     "cristiangirlea/humble-superhero",
+    "cristiangirlea/inference",
     "cristiangirlea/ljpeg",
     "cristiangirlea/llm-agent-benchmark",
     "cristiangirlea/php-python-ai-bridge",
@@ -37,7 +41,7 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 2687326,
+      "bytes": 3664027,
       "color": "#00ADD8"
     },
     {
@@ -52,12 +56,12 @@
     },
     {
       "name": "Python",
-      "bytes": 360112,
+      "bytes": 373058,
       "color": "#3572A5"
     },
     {
       "name": "JavaScript",
-      "bytes": 184123,
+      "bytes": 193996,
       "color": "#f1e05a"
     },
     {
@@ -67,7 +71,7 @@
     },
     {
       "name": "Shell",
-      "bytes": 66960,
+      "bytes": 85559,
       "color": "#89e051"
     },
     {
@@ -77,7 +81,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 39537,
+      "bytes": 40828,
       "color": "#663399"
     },
     {
@@ -87,7 +91,7 @@
     },
     {
       "name": "Go Template",
-      "bytes": 23973,
+      "bytes": 26278,
       "color": "#00ADD8"
     },
     {
@@ -102,8 +106,13 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 13309,
+      "bytes": 14305,
       "color": "#384d54"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 8270,
+      "color": "#336790"
     },
     {
       "name": "HCL",
@@ -121,11 +130,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 4281,
-  "public_commits": 1115,
+  "calendar_contributions": 4965,
+  "public_commits": 1601,
   "active_days": 57,
   "streaks": {
-    "current": 23,
-    "longest": 23
+    "current": 24,
+    "longest": 24
   }
 }
