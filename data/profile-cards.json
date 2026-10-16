@@ -1,10 +1,10 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-10-15 08:26 UTC",
-  "period_start": "2025-10-16",
-  "period_end": "2026-10-15",
+  "checked_at": "2026-10-16 08:19 UTC",
+  "period_start": "2025-10-17",
+  "period_end": "2026-10-16",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
-  "repositories": 30,
+  "repositories": 31,
   "stars": 0,
   "repository_names": [
     "cristiangirlea/GitReportGenerator",
@@ -27,6 +27,7 @@
     "cristiangirlea/inference",
     "cristiangirlea/ljpeg",
     "cristiangirlea/llm-agent-benchmark",
+    "cristiangirlea/people-index",
     "cristiangirlea/php-python-ai-bridge",
     "cristiangirlea/rift-barrage",
     "cristiangirlea/self-hosted-ci",
@@ -41,8 +42,18 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 3982949,
+      "bytes": 4570428,
       "color": "#00ADD8"
+    },
+    {
+      "name": "Rust",
+      "bytes": 805779,
+      "color": "#dea584"
+    },
+    {
+      "name": "TypeScript",
+      "bytes": 565932,
+      "color": "#3178c6"
     },
     {
       "name": "PHP",
@@ -50,23 +61,18 @@
       "color": "#4F5D95"
     },
     {
-      "name": "TypeScript",
-      "bytes": 420998,
-      "color": "#3178c6"
-    },
-    {
       "name": "Python",
-      "bytes": 380954,
+      "bytes": 420999,
       "color": "#3572A5"
     },
     {
       "name": "Shell",
-      "bytes": 195081,
+      "bytes": 227697,
       "color": "#89e051"
     },
     {
       "name": "JavaScript",
-      "bytes": 195037,
+      "bytes": 199204,
       "color": "#f1e05a"
     },
     {
@@ -81,7 +87,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 40828,
+      "bytes": 44983,
       "color": "#663399"
     },
     {
@@ -90,23 +96,23 @@
       "color": "#f7523f"
     },
     {
+      "name": "Makefile",
+      "bytes": 28955,
+      "color": "#427819"
+    },
+    {
       "name": "Go Template",
-      "bytes": 27879,
+      "bytes": 27915,
       "color": "#00ADD8"
     },
     {
       "name": "HTML",
-      "bytes": 20605,
+      "bytes": 21413,
       "color": "#e34c26"
     },
     {
-      "name": "Makefile",
-      "bytes": 16958,
-      "color": "#427819"
-    },
-    {
       "name": "Dockerfile",
-      "bytes": 14305,
+      "bytes": 17713,
       "color": "#384d54"
     },
     {
@@ -130,11 +136,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 5416,
-  "public_commits": 1829,
+  "calendar_contributions": 5877,
+  "public_commits": 2010,
   "active_days": 57,
   "streaks": {
-    "current": 25,
-    "longest": 25
+    "current": 26,
+    "longest": 26
   }
 }
