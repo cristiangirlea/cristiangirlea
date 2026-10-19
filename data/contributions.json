@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-18 08:10 UTC",
+  "checked_at": "2026-10-19 09:05 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -8,7 +8,7 @@
       "open": 13,
       "closed": 0,
       "draft": 0,
-      "stars": 139296,
+      "stars": 139374,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -138,7 +138,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34963,
+      "stars": 34966,
       "gerrit": [],
       "merged_prs": []
     },
@@ -148,7 +148,7 @@
       "open": 7,
       "closed": 0,
       "draft": 5,
-      "stars": 24033,
+      "stars": 24039,
       "gerrit": [],
       "merged_prs": []
     },
@@ -158,7 +158,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11189,
+      "stars": 11192,
       "gerrit": [],
       "merged_prs": []
     },
@@ -193,7 +193,7 @@
       "open": 3,
       "closed": 1,
       "draft": 0,
-      "stars": 3837,
+      "stars": 3839,
       "gerrit": [],
       "merged_prs": []
     },
