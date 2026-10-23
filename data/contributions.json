@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-22 08:45 UTC",
+  "checked_at": "2026-10-23 08:41 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -8,7 +8,7 @@
       "open": 13,
       "closed": 0,
       "draft": 0,
-      "stars": 139397,
+      "stars": 139487,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -138,7 +138,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34972,
+      "stars": 34974,
       "gerrit": [],
       "merged_prs": []
     },
@@ -148,7 +148,7 @@
       "open": 7,
       "closed": 0,
       "draft": 5,
-      "stars": 24061,
+      "stars": 24065,
       "gerrit": [],
       "merged_prs": []
     },
@@ -158,7 +158,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11220,
+      "stars": 11228,
       "gerrit": [],
       "merged_prs": []
     },
@@ -168,7 +168,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4670,
+      "stars": 4671,
       "gerrit": [],
       "merged_prs": []
     },
@@ -178,7 +178,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4051,
+      "stars": 4050,
       "gerrit": [],
       "merged_prs": [
         {
@@ -193,7 +193,7 @@
       "open": 3,
       "closed": 1,
       "draft": 0,
-      "stars": 3839,
+      "stars": 3842,
       "gerrit": [],
       "merged_prs": []
     },
@@ -223,10 +223,10 @@
     {
       "name": "temporalio/sdk-typescript",
       "merged": 0,
-      "open": 1,
-      "closed": 0,
+      "open": 0,
+      "closed": 1,
       "draft": 0,
-      "stars": 939,
+      "stars": 938,
       "gerrit": [],
       "merged_prs": []
     },
