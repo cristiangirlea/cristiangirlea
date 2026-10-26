@@ -1,8 +1,8 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-10-25 08:34 UTC",
-  "period_start": "2025-10-26",
-  "period_end": "2026-10-25",
+  "checked_at": "2026-10-26 09:08 UTC",
+  "period_start": "2025-10-27",
+  "period_end": "2026-10-26",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
   "repositories": 31,
   "stars": 1,
@@ -42,7 +42,7 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 6032984,
+      "bytes": 6270417,
       "color": "#00ADD8"
     },
     {
@@ -51,8 +51,13 @@
       "color": "#dea584"
     },
     {
+      "name": "Python",
+      "bytes": 669677,
+      "color": "#3572A5"
+    },
+    {
       "name": "PHP",
-      "bytes": 628552,
+      "bytes": 632992,
       "color": "#4F5D95"
     },
     {
@@ -61,13 +66,8 @@
       "color": "#3178c6"
     },
     {
-      "name": "Python",
-      "bytes": 555694,
-      "color": "#3572A5"
-    },
-    {
       "name": "Shell",
-      "bytes": 270600,
+      "bytes": 271901,
       "color": "#89e051"
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 45558,
+      "bytes": 46276,
       "color": "#663399"
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "name": "Go Template",
-      "bytes": 30144,
+      "bytes": 30398,
       "color": "#00ADD8"
     },
     {
@@ -136,11 +136,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 7356,
-  "public_commits": 2698,
-  "active_days": 58,
+  "calendar_contributions": 7805,
+  "public_commits": 2800,
+  "active_days": 60,
   "streaks": {
-    "current": 0,
+    "current": 2,
     "longest": 32
   }
 }
