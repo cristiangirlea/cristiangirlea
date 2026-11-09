@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08 10:35 UTC",
+  "checked_at": "2026-11-09 11:50 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -8,7 +8,7 @@
       "open": 17,
       "closed": 0,
       "draft": 4,
-      "stars": 139784,
+      "stars": 139804,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -162,7 +162,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34997,
+      "stars": 34995,
       "gerrit": [],
       "merged_prs": []
     },
@@ -172,7 +172,7 @@
       "open": 3,
       "closed": 4,
       "draft": 1,
-      "stars": 24133,
+      "stars": 24140,
       "gerrit": [],
       "merged_prs": []
     },
@@ -182,7 +182,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11294,
+      "stars": 11301,
       "gerrit": [],
       "merged_prs": []
     },
@@ -192,7 +192,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4686,
+      "stars": 4688,
       "gerrit": [],
       "merged_prs": []
     },
@@ -217,7 +217,7 @@
       "open": 3,
       "closed": 1,
       "draft": 0,
-      "stars": 3855,
+      "stars": 3858,
       "gerrit": [],
       "merged_prs": []
     },
@@ -227,7 +227,7 @@
       "open": 1,
       "closed": 0,
       "draft": 1,
-      "stars": 3357,
+      "stars": 3356,
       "gerrit": [
         {
           "pr": "https://github.com/golang/crypto/pull/379",
