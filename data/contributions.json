@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09 11:50 UTC",
+  "checked_at": "2026-11-10 11:24 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -7,8 +7,8 @@
       "merged": 4,
       "open": 17,
       "closed": 0,
-      "draft": 4,
-      "stars": 139804,
+      "draft": 0,
+      "stars": 139824,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -162,17 +162,17 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34995,
+      "stars": 34996,
       "gerrit": [],
       "merged_prs": []
     },
     {
       "name": "PrefectHQ/prefect",
       "merged": 0,
-      "open": 3,
-      "closed": 4,
+      "open": 2,
+      "closed": 5,
       "draft": 1,
-      "stars": 24140,
+      "stars": 24141,
       "gerrit": [],
       "merged_prs": []
     },
@@ -182,7 +182,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11301,
+      "stars": 11304,
       "gerrit": [],
       "merged_prs": []
     },
@@ -192,7 +192,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4688,
+      "stars": 4689,
       "gerrit": [],
       "merged_prs": []
     },
@@ -202,7 +202,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4056,
+      "stars": 4057,
       "gerrit": [],
       "merged_prs": [
         {
@@ -226,7 +226,7 @@
       "merged": 0,
       "open": 1,
       "closed": 0,
-      "draft": 1,
+      "draft": 0,
       "stars": 3356,
       "gerrit": [
         {
@@ -267,7 +267,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 948,
+      "stars": 949,
       "gerrit": [],
       "merged_prs": []
     },
@@ -306,7 +306,7 @@
       "open": 0,
       "closed": 2,
       "draft": 0,
-      "stars": 733,
+      "stars": 734,
       "gerrit": [],
       "merged_prs": []
     },
@@ -333,7 +333,7 @@
       "open": 1,
       "closed": 0,
       "draft": 1,
-      "stars": 446,
+      "stars": 447,
       "gerrit": [],
       "merged_prs": [
         {
