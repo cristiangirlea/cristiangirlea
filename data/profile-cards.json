@@ -1,10 +1,10 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-11-12 11:30 UTC",
-  "period_start": "2025-11-13",
-  "period_end": "2026-11-12",
+  "checked_at": "2026-11-13 11:15 UTC",
+  "period_start": "2025-11-14",
+  "period_end": "2026-11-13",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
-  "repositories": 31,
+  "repositories": 32,
   "stars": 2,
   "repository_names": [
     "cristiangirlea/GitReportGenerator",
@@ -25,6 +25,7 @@
     "cristiangirlea/hrn-evals",
     "cristiangirlea/humble-superhero",
     "cristiangirlea/inference",
+    "cristiangirlea/lead-workbench",
     "cristiangirlea/ljpeg",
     "cristiangirlea/llm-agent-benchmark",
     "cristiangirlea/people-index",
@@ -42,7 +43,7 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 9312787,
+      "bytes": 9411982,
       "color": "#00ADD8"
     },
     {
@@ -52,7 +53,7 @@
     },
     {
       "name": "Python",
-      "bytes": 968582,
+      "bytes": 1128676,
       "color": "#3572A5"
     },
     {
@@ -72,7 +73,7 @@
     },
     {
       "name": "JavaScript",
-      "bytes": 212881,
+      "bytes": 233632,
       "color": "#f1e05a"
     },
     {
@@ -82,7 +83,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 76785,
+      "bytes": 83109,
       "color": "#663399"
     },
     {
@@ -107,7 +108,7 @@
     },
     {
       "name": "HTML",
-      "bytes": 21548,
+      "bytes": 25143,
       "color": "#e34c26"
     },
     {
@@ -136,11 +137,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 10273,
-  "public_commits": 3911,
+  "calendar_contributions": 10291,
+  "public_commits": 3928,
   "active_days": 74,
   "streaks": {
-    "current": 4,
+    "current": 5,
     "longest": 32
   }
 }
