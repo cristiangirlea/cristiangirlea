@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13 11:15 UTC",
+  "checked_at": "2026-11-14 10:40 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -8,7 +8,7 @@
       "open": 19,
       "closed": 0,
       "draft": 1,
-      "stars": 139883,
+      "stars": 139878,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -174,17 +174,17 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 34998,
+      "stars": 34999,
       "gerrit": [],
       "merged_prs": []
     },
     {
       "name": "PrefectHQ/prefect",
       "merged": 0,
-      "open": 2,
-      "closed": 5,
-      "draft": 1,
-      "stars": 24152,
+      "open": 1,
+      "closed": 6,
+      "draft": 0,
+      "stars": 24155,
       "gerrit": [],
       "merged_prs": []
     },
@@ -194,7 +194,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11311,
+      "stars": 11318,
       "gerrit": [],
       "merged_prs": []
     },
@@ -229,7 +229,7 @@
       "open": 3,
       "closed": 1,
       "draft": 0,
-      "stars": 3864,
+      "stars": 3866,
       "gerrit": [],
       "merged_prs": []
     },
@@ -239,7 +239,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 3358,
+      "stars": 3357,
       "gerrit": [
         {
           "pr": "https://github.com/golang/crypto/pull/379",
