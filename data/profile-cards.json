@@ -1,10 +1,10 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-11-19 11:53 UTC",
-  "period_start": "2025-11-20",
-  "period_end": "2026-11-19",
+  "checked_at": "2026-11-20 11:55 UTC",
+  "period_start": "2025-11-21",
+  "period_end": "2026-11-20",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
-  "repositories": 33,
+  "repositories": 34,
   "stars": 2,
   "repository_names": [
     "cristiangirlea/GitReportGenerator",
@@ -26,6 +26,7 @@
     "cristiangirlea/humble-superhero",
     "cristiangirlea/inference",
     "cristiangirlea/job-skill-extraction",
+    "cristiangirlea/jobpilot-core",
     "cristiangirlea/lead-workbench",
     "cristiangirlea/ljpeg",
     "cristiangirlea/llm-agent-benchmark",
@@ -44,12 +45,12 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 9810175,
+      "bytes": 11924499,
       "color": "#00ADD8"
     },
     {
       "name": "Rust",
-      "bytes": 1476996,
+      "bytes": 1485246,
       "color": "#dea584"
     },
     {
@@ -59,7 +60,7 @@
     },
     {
       "name": "TypeScript",
-      "bytes": 876448,
+      "bytes": 1069765,
       "color": "#3178c6"
     },
     {
@@ -69,22 +70,22 @@
     },
     {
       "name": "Shell",
-      "bytes": 424220,
+      "bytes": 488832,
       "color": "#89e051"
     },
     {
       "name": "JavaScript",
-      "bytes": 233632,
+      "bytes": 257937,
       "color": "#f1e05a"
     },
     {
       "name": "PowerShell",
-      "bytes": 108552,
+      "bytes": 139511,
       "color": "#012456"
     },
     {
       "name": "CSS",
-      "bytes": 83109,
+      "bytes": 84355,
       "color": "#663399"
     },
     {
@@ -94,7 +95,7 @@
     },
     {
       "name": "Makefile",
-      "bytes": 37814,
+      "bytes": 40129,
       "color": "#427819"
     },
     {
@@ -104,8 +105,13 @@
     },
     {
       "name": "Go Template",
-      "bytes": 35470,
+      "bytes": 35512,
       "color": "#00ADD8"
+    },
+    {
+      "name": "PLpgSQL",
+      "bytes": 30872,
+      "color": "#336790"
     },
     {
       "name": "HTML",
@@ -114,13 +120,8 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 18452,
+      "bytes": 20165,
       "color": "#384d54"
-    },
-    {
-      "name": "PLpgSQL",
-      "bytes": 8270,
-      "color": "#336790"
     },
     {
       "name": "HCL",
@@ -138,11 +139,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 10599,
-  "public_commits": 4036,
-  "active_days": 77,
+  "calendar_contributions": 10988,
+  "public_commits": 4394,
+  "active_days": 78,
   "streaks": {
-    "current": 5,
+    "current": 6,
     "longest": 32
   }
 }

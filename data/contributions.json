@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-19 11:53 UTC",
+  "checked_at": "2026-11-20 11:55 UTC",
   "owner": "cristiangirlea",
   "repositories": [
     {
@@ -7,8 +7,8 @@
       "merged": 4,
       "open": 19,
       "closed": 0,
-      "draft": 1,
-      "stars": 140070,
+      "draft": 0,
+      "stars": 140126,
       "gerrit": [
         {
           "pr": "https://github.com/golang/go/pull/81545",
@@ -184,7 +184,7 @@
       "open": 1,
       "closed": 6,
       "draft": 0,
-      "stars": 24185,
+      "stars": 24190,
       "gerrit": [],
       "merged_prs": []
     },
@@ -194,7 +194,7 @@
       "open": 1,
       "closed": 0,
       "draft": 0,
-      "stars": 11343,
+      "stars": 11347,
       "gerrit": [],
       "merged_prs": []
     },
@@ -214,7 +214,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 4059,
+      "stars": 4057,
       "gerrit": [],
       "merged_prs": [
         {
@@ -229,7 +229,7 @@
       "open": 3,
       "closed": 1,
       "draft": 0,
-      "stars": 3873,
+      "stars": 3871,
       "gerrit": [],
       "merged_prs": []
     },
@@ -239,7 +239,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 3358,
+      "stars": 3357,
       "gerrit": [
         {
           "pr": "https://github.com/golang/crypto/pull/379",
@@ -256,7 +256,7 @@
       "open": 3,
       "closed": 0,
       "draft": 1,
-      "stars": 3046,
+      "stars": 3045,
       "gerrit": [
         {
           "pr": "https://github.com/golang/net/pull/269",
@@ -285,7 +285,7 @@
       "open": 0,
       "closed": 1,
       "draft": 0,
-      "stars": 951,
+      "stars": 950,
       "gerrit": [],
       "merged_prs": []
     },
@@ -295,7 +295,7 @@
       "open": 3,
       "closed": 0,
       "draft": 0,
-      "stars": 812,
+      "stars": 813,
       "gerrit": [
         {
           "pr": "https://github.com/golang/text/pull/72",
@@ -324,7 +324,7 @@
       "open": 0,
       "closed": 2,
       "draft": 0,
-      "stars": 734,
+      "stars": 731,
       "gerrit": [],
       "merged_prs": []
     },
@@ -351,7 +351,7 @@
       "open": 1,
       "closed": 0,
       "draft": 1,
-      "stars": 450,
+      "stars": 449,
       "gerrit": [],
       "merged_prs": [
         {
@@ -439,13 +439,18 @@
     },
     {
       "name": "temporalio/terraform-provider-temporalcloud",
-      "merged": 0,
-      "open": 1,
+      "merged": 1,
+      "open": 0,
       "closed": 0,
       "draft": 0,
       "stars": 28,
       "gerrit": [],
-      "merged_prs": []
+      "merged_prs": [
+        {
+          "pr": "https://github.com/temporalio/terraform-provider-temporalcloud/pull/444",
+          "evidence": "https://github.com/temporalio/terraform-provider-temporalcloud/pull/444"
+        }
+      ]
     },
     {
       "name": "canonical/concierge",
@@ -464,8 +469,8 @@
     },
     {
       "name": "canonical/traefik-k8s-operator",
-      "merged": 1,
-      "open": 1,
+      "merged": 2,
+      "open": 0,
       "closed": 0,
       "draft": 0,
       "stars": 17,
@@ -474,6 +479,10 @@
         {
           "pr": "https://github.com/canonical/traefik-k8s-operator/pull/782",
           "evidence": "https://github.com/canonical/traefik-k8s-operator/pull/782"
+        },
+        {
+          "pr": "https://github.com/canonical/traefik-k8s-operator/pull/800",
+          "evidence": "https://github.com/canonical/traefik-k8s-operator/pull/800"
         }
       ]
     },
