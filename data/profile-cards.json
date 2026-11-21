@@ -1,15 +1,17 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-11-20 11:55 UTC",
-  "period_start": "2025-11-21",
-  "period_end": "2026-11-20",
+  "checked_at": "2026-11-21 11:25 UTC",
+  "period_start": "2025-11-22",
+  "period_end": "2026-11-21",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
-  "repositories": 34,
+  "repositories": 37,
   "stars": 2,
   "repository_names": [
     "cristiangirlea/GitReportGenerator",
     "cristiangirlea/OScapeDLCapture",
     "cristiangirlea/TypeFormTest",
+    "cristiangirlea/adanext-ada",
+    "cristiangirlea/adanext-channels",
     "cristiangirlea/adanext-exec",
     "cristiangirlea/adanext-map",
     "cristiangirlea/adanext-os",
@@ -33,6 +35,7 @@
     "cristiangirlea/people-index",
     "cristiangirlea/php-python-ai-bridge",
     "cristiangirlea/rift-barrage",
+    "cristiangirlea/safecopy",
     "cristiangirlea/self-hosted-ci",
     "cristiangirlea/shci-smoke-test",
     "cristiangirlea/task-management-app",
@@ -45,12 +48,12 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 11924499,
+      "bytes": 12372998,
       "color": "#00ADD8"
     },
     {
       "name": "Rust",
-      "bytes": 1485246,
+      "bytes": 1488968,
       "color": "#dea584"
     },
     {
@@ -60,7 +63,7 @@
     },
     {
       "name": "TypeScript",
-      "bytes": 1069765,
+      "bytes": 1077003,
       "color": "#3178c6"
     },
     {
@@ -70,7 +73,7 @@
     },
     {
       "name": "Shell",
-      "bytes": 488832,
+      "bytes": 623462,
       "color": "#89e051"
     },
     {
@@ -115,7 +118,7 @@
     },
     {
       "name": "HTML",
-      "bytes": 25143,
+      "bytes": 26146,
       "color": "#e34c26"
     },
     {
@@ -139,11 +142,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 10988,
-  "public_commits": 4394,
-  "active_days": 78,
+  "calendar_contributions": 11408,
+  "public_commits": 4510,
+  "active_days": 79,
   "streaks": {
-    "current": 6,
+    "current": 7,
     "longest": 32
   }
 }
