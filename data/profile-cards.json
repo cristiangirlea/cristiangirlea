@@ -1,8 +1,8 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-11-22 11:41 UTC",
-  "period_start": "2025-11-23",
-  "period_end": "2026-11-22",
+  "checked_at": "2026-11-23 13:14 UTC",
+  "period_start": "2025-11-24",
+  "period_end": "2026-11-23",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
   "repositories": 37,
   "stars": 2,
@@ -146,7 +146,7 @@
   "public_commits": 4530,
   "active_days": 79,
   "streaks": {
-    "current": 7,
+    "current": 0,
     "longest": 32
   }
 }
