@@ -1,10 +1,10 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-11-23 13:14 UTC",
-  "period_start": "2025-11-24",
-  "period_end": "2026-11-23",
+  "checked_at": "2026-11-24 13:58 UTC",
+  "period_start": "2025-11-25",
+  "period_end": "2026-11-24",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
-  "repositories": 37,
+  "repositories": 39,
   "stars": 2,
   "repository_names": [
     "cristiangirlea/GitReportGenerator",
@@ -13,6 +13,7 @@
     "cristiangirlea/adanext-ada",
     "cristiangirlea/adanext-channels",
     "cristiangirlea/adanext-exec",
+    "cristiangirlea/adanext-guides",
     "cristiangirlea/adanext-map",
     "cristiangirlea/adanext-os",
     "cristiangirlea/classify-sessions",
@@ -25,6 +26,7 @@
     "cristiangirlea/fuel-cost-platform",
     "cristiangirlea/harness",
     "cristiangirlea/hrn-evals",
+    "cristiangirlea/hrn-search",
     "cristiangirlea/humble-superhero",
     "cristiangirlea/inference",
     "cristiangirlea/job-skill-extraction",
@@ -48,22 +50,22 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 12614031,
+      "bytes": 13853949,
       "color": "#00ADD8"
     },
     {
       "name": "Rust",
-      "bytes": 2319255,
+      "bytes": 2650985,
       "color": "#dea584"
     },
     {
       "name": "Python",
-      "bytes": 1243734,
+      "bytes": 1292074,
       "color": "#3572A5"
     },
     {
       "name": "TypeScript",
-      "bytes": 1077003,
+      "bytes": 1128743,
       "color": "#3178c6"
     },
     {
@@ -73,7 +75,7 @@
     },
     {
       "name": "Shell",
-      "bytes": 623462,
+      "bytes": 642747,
       "color": "#89e051"
     },
     {
@@ -88,7 +90,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 84355,
+      "bytes": 84741,
       "color": "#663399"
     },
     {
@@ -123,7 +125,7 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 20165,
+      "bytes": 20173,
       "color": "#384d54"
     },
     {
@@ -142,11 +144,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 11475,
-  "public_commits": 4530,
-  "active_days": 79,
+  "calendar_contributions": 11889,
+  "public_commits": 4670,
+  "active_days": 81,
   "streaks": {
-    "current": 0,
+    "current": 2,
     "longest": 32
   }
 }
