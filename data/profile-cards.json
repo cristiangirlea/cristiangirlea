@@ -1,8 +1,8 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-11-25 13:12 UTC",
-  "period_start": "2025-11-26",
-  "period_end": "2026-11-25",
+  "checked_at": "2026-11-26 12:52 UTC",
+  "period_start": "2025-11-27",
+  "period_end": "2026-11-26",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
   "repositories": 40,
   "stars": 3,
@@ -51,22 +51,22 @@
   "languages": [
     {
       "name": "Go",
-      "bytes": 13995147,
+      "bytes": 14237037,
       "color": "#00ADD8"
     },
     {
       "name": "Rust",
-      "bytes": 2998726,
+      "bytes": 3059206,
       "color": "#dea584"
     },
     {
       "name": "TypeScript",
-      "bytes": 1364557,
+      "bytes": 1599800,
       "color": "#3178c6"
     },
     {
       "name": "Python",
-      "bytes": 1294634,
+      "bytes": 1298000,
       "color": "#3572A5"
     },
     {
@@ -76,12 +76,12 @@
     },
     {
       "name": "Shell",
-      "bytes": 642747,
+      "bytes": 645168,
       "color": "#89e051"
     },
     {
       "name": "JavaScript",
-      "bytes": 257937,
+      "bytes": 271806,
       "color": "#f1e05a"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 84741,
+      "bytes": 85191,
       "color": "#663399"
     },
     {
@@ -126,7 +126,7 @@
     },
     {
       "name": "Dockerfile",
-      "bytes": 20173,
+      "bytes": 20835,
       "color": "#384d54"
     },
     {
@@ -145,11 +145,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 11986,
-  "public_commits": 4728,
-  "active_days": 82,
+  "calendar_contributions": 12203,
+  "public_commits": 4762,
+  "active_days": 83,
   "streaks": {
-    "current": 3,
+    "current": 4,
     "longest": 32
   }
 }
