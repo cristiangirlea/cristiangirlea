@@ -1,10 +1,10 @@
 {
   "owner": "cristiangirlea",
-  "checked_at": "2026-11-27 12:47 UTC",
-  "period_start": "2025-11-28",
-  "period_end": "2026-11-27",
+  "checked_at": "2026-11-28 12:00 UTC",
+  "period_start": "2025-11-29",
+  "period_end": "2026-11-28",
   "repository_scope": "Public, owned, non-fork, non-archived repositories",
-  "repositories": 40,
+  "repositories": 41,
   "stars": 4,
   "repository_names": [
     "cristiangirlea/GitReportGenerator",
@@ -46,17 +46,18 @@
     "cristiangirlea/task-management-express-backend",
     "cristiangirlea/task-management-next-react",
     "cristiangirlea/tidedesk",
+    "cristiangirlea/tidedesk-keyboard-share",
     "cristiangirlea/words-split"
   ],
   "languages": [
     {
       "name": "Go",
-      "bytes": 14241189,
+      "bytes": 14241689,
       "color": "#00ADD8"
     },
     {
       "name": "Rust",
-      "bytes": 3059206,
+      "bytes": 3102716,
       "color": "#dea584"
     },
     {
@@ -66,7 +67,7 @@
     },
     {
       "name": "Python",
-      "bytes": 1298000,
+      "bytes": 1303651,
       "color": "#3572A5"
     },
     {
@@ -76,7 +77,7 @@
     },
     {
       "name": "Shell",
-      "bytes": 645168,
+      "bytes": 650077,
       "color": "#89e051"
     },
     {
@@ -86,7 +87,7 @@
     },
     {
       "name": "PowerShell",
-      "bytes": 139511,
+      "bytes": 142778,
       "color": "#012456"
     },
     {
@@ -120,6 +121,11 @@
       "color": "#336790"
     },
     {
+      "name": "Java",
+      "bytes": 27358,
+      "color": "#b07219"
+    },
+    {
       "name": "HTML",
       "bytes": 26107,
       "color": "#e34c26"
@@ -145,11 +151,11 @@
       "color": "#555555"
     }
   ],
-  "calendar_contributions": 12331,
-  "public_commits": 4781,
-  "active_days": 84,
+  "calendar_contributions": 12371,
+  "public_commits": 4796,
+  "active_days": 85,
   "streaks": {
-    "current": 5,
+    "current": 6,
     "longest": 32
   }
 }
